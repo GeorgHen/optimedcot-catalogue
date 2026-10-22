@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://www.has-sante.fr/jcms/p_4579272/fr/reponse-a-la-saisine-de-l-assurance-maladie-guide-d-accompagnement-pharmaceutique-des-patients-diabetiques-de-type-2-et-fiches-de-suivi-patient",
+    "date": "2026-10-12T13:09:53+00:00",
+    "topic": "diabète",
+    "issuer": "has",
+    "type": "OFFICIAL",
+    "digest": "02776e2cac0dc82dac94902a7b726848db343d6c8aea0e6b90dc367f939e2005",
+    "verification": "UNCHANGED_REFERENCE",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.has-sante.fr/jcms/p_4231706/fr/strategie-de-vaccination-contre-la-covid-19-place-du-vaccin-arnm-comirnaty-10-g-chez-les-enfants-ages-de-6-mois-a-4-ans-dans-la-strategie-vaccinale-en-remplacement-de-la-formulation-3-g",
+    "date": "2026-07-23T09:50:19+00:00",
+    "topic": "vaccination",
+    "issuer": "has",
+    "type": "OFFICIAL",
+    "digest": "adb2a21a0dba056e1c24bca0d15348a3d227cf9d4294cdec219729b55dd01a7e",
+    "verification": "UNCHANGED_REFERENCE",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.has-sante.fr/jcms/p_4196195/fr/label-flash-securite-patient-vigilance-somatique-en-psychiatrie-prendre-soin-du-mental-sans-passer-a-cote-du-vital",
+    "date": "2026-07-16T08:43:42+00:00",
+    "topic": "santé mentale",
+    "issuer": "has",
+    "type": "OFFICIAL",
+    "digest": "edd6b56ad75c9e23eedb1bc1bebb179d4cd1daadd44412b4e97ec98ce8edf331",
+    "verification": "UNCHANGED_REFERENCE",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
+    "date": "2026-10-21T17:07:24+00:00",
+    "topic": "surveillance de la mortalité",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "digest": "944628fb9932a887e1d4b23eb539b547acf1bd9b5c81e768017fa5da8e876032",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
+    "date": "2026-10-21T17:05:19+00:00",
+    "topic": "recours aux urgences",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "digest": "220fa77b1c9994bab211d9a8a92e8367604508893076efabb4b67718fd102b15",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-21-octobre-2026",
+    "date": "2026-10-21T16:43:33+00:00",
+    "topic": "surveillance respiratoire",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "digest": "7933668b771397fdf16c8510816db7401581e689ff4843f27a7e399a759f0e86",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://splf.fr/recherche-medecin-pneumologue-h-f-ch-cote-de-lumiere-85/",
+    "date": "2026-10-19T07:56:23+00:00",
+    "topic": "surveillance respiratoire",
+    "issuer": "splf",
+    "type": "COMPLEMENTARY",
+    "digest": "c0a8a8b7077e358ebb4f9dd7aaf7061500bd84deb2e06026a82ccd16bd162077",
+    "verification": "COMPLEMENTARY_UNVERIFIED",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://splf.fr/recommandations-de-prise-en-charge-des-pneumopathies-interstitielles-diffuses-associees-a-une-connectivite-synthese-des-recommandations-europeennes-ers-eular-2025/",
+    "date": "2026-10-15T15:59:05+00:00",
+    "topic": "surveillance respiratoire",
+    "issuer": "splf",
+    "type": "COMPLEMENTARY",
+    "digest": "662a5d43b4b389c777c8521249fd4dd5173252b5cd0b66f624f5788b23c022d1",
+    "verification": "COMPLEMENTARY_UNVERIFIED",
+    "clinicalVerification": "NOT_ASSESSED"
+  }
+]

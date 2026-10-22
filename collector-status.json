@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-22T10:28:21.015208+00:00",
+  "newOrModifiedReferences": 3,
+  "generation": 5,
+  "sources": [
+    {
+      "source": "has",
+      "kind": "OFFICIAL",
+      "state": "COLLECTED",
+      "references": 3,
+      "published": 0
+    },
+    {
+      "source": "spf",
+      "kind": "OFFICIAL",
+      "state": "COLLECTED",
+      "references": 3,
+      "published": 3
+    },
+    {
+      "source": "ameli",
+      "kind": "OFFICIAL",
+      "state": "UNAVAILABLE_OR_QUARANTINED",
+      "reason": "HTML non qualifié pour publication automatique ; source enregistrée, aucune synthèse générée"
+    },
+    {
+      "source": "ansm",
+      "kind": "OFFICIAL",
+      "state": "UNAVAILABLE_OR_QUARANTINED",
+      "reason": "XML externe interdit"
+    },
+    {
+      "source": "ministere",
+      "kind": "OFFICIAL",
+      "state": "UNAVAILABLE_OR_QUARANTINED",
+      "reason": "Accès impossible curl: (22) The requested URL returned error: 503\r\n"
+    },
+    {
+      "source": "omniprat",
+      "kind": "COMPLEMENTARY",
+      "state": "UNAVAILABLE_OR_QUARANTINED",
+      "reason": "HTML non qualifié pour publication automatique ; source enregistrée, aucune synthèse générée"
+    },
+    {
+      "source": "splf",
+      "kind": "COMPLEMENTARY",
+      "state": "COLLECTED",
+      "references": 2,
+      "published": 0
+    }
+  ],
+  "notice": "Only original publication-reference notices are eligible; no clinical/billing rule automatically qualified."
+}

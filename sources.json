@@ -1,0 +1,9 @@
+[
+ {"id":"has","name":"Haute Autorité de santé","kind":"OFFICIAL","url":"https://www.has-sante.fr/feed/Rss2.jsp?id=p_3081452","format":"rss","rights_url":"https://www.has-sante.fr/jcms/c_518191/fr/mentions-legales","publication":"REFERENCE_ONLY","rights_scope":"Références et notices originales ; informations publiques CRPA, sans copie de document, logo ou média"},
+ {"id":"spf","name":"Santé publique France","kind":"OFFICIAL","url":"https://www.santepubliquefrance.fr/rss/974","format":"rss","rights_url":"https://www.santepubliquefrance.fr/mentions-legales","publication":"REFERENCE_ONLY","rights_scope":"Notice originale et lien direct expressément permis ; aucun texte, titre créatif, donnée clinique, tableau ou média SPF redistribué"},
+ {"id":"ameli","name":"Assurance Maladie","kind":"OFFICIAL","url":"https://www.ameli.fr/medecin/actualites","format":"html","publication":"QUARANTINE","reason":"Flux RSS non identifié ; droits de synthèse à qualifier pour chaque article"},
+ {"id":"ansm","name":"ANSM","kind":"OFFICIAL","url":"https://ansm.sante.fr/rss/actualites","format":"rss","publication":"QUARANTINE","reason":"Réponse HTML au lieu du RSS lors du contrôle ; accès et droits à qualifier"},
+ {"id":"ministere","name":"Ministère chargé de la Santé","kind":"OFFICIAL","url":"https://sante.gouv.fr/actualites-presse/actualites-du-ministere/","format":"html","publication":"QUARANTINE","reason":"Accès HTTP 503 lors du contrôle ; ne pas contourner"},
+ {"id":"omniprat","name":"OMNIPrat","kind":"COMPLEMENTARY","url":"https://omniprat.org/","format":"html","publication":"QUARANTINE","reason":"Signal complémentaire, aucune validation institutionnelle automatique"},
+ {"id":"splf","name":"Société de pneumologie de langue française","kind":"COMPLEMENTARY","url":"https://splf.fr/feed/","format":"rss","publication":"QUARANTINE","reason":"Signal complémentaire, corroboration officielle et droits requis avant publication"}
+]
