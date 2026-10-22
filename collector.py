@@ -138,23 +138,23 @@ def rss(raw,source,now):
   if date is None:continue
   day=date.date() if isinstance(date,dt.datetime) else date
   if day>now.date() or (now.date()-day).days>120:continue
-  metadata={'url':url,'date':date.isoformat(),'topic':topic,'issuer':source['id'],'type':source['kind']}
+  metadata={'url':url,'date':date.isoformat(),'topic':topic,'issuer':source['id'],'type':source['kind'],'profile':'reference-only-v2','descriptionDigest':sha((node.findtext('description') or '').encode('utf-8'))}
   # No RSS description/title is redistributed when the rights profile permits links only.
   metadata['digest']=sha(json.dumps({'title':title,**metadata},ensure_ascii=False,sort_keys=True).encode())
   items.append(metadata)
  return items
 
-def make_entry(s,m,now,rights_digest,published=None):
+def make_entry(s,m,now,rights_digest):
  identity='fr.optimedcot.notice.'+sha(m['url'].encode())[:24];revision='metadata-'+m['digest'][:24];rev=(identity,revision);docid='rss-reference';w=Writer()
  title=s['name']+' — '+m['topic'].capitalize()+' : publication à consulter'
  summary='Une publication institutionnelle sur ce sujet est signalée. Consulter le document officiel avant toute décision.'
- body=('Notice de référence publiée par OptiMedCot le '+(published or now.date().isoformat())+'. Source officielle — '+s['name']+'.\nSujet : '+m['topic']+'.\nDate fournie par le flux : '+m['date'][:10]+'.\n'+
+ body=('Notice documentaire originale OptiMedCot. Source officielle — '+s['name']+'.\nSujet : '+m['topic']+'.\nDate fournie par le flux : '+m['date'][:10]+'.\n'+
  'Vérification : origine HTTPS, référence, sujet et métadonnées du flux contrôlés le '+now.date().isoformat()+'. Le contenu clinique, les tarifs et les conditions de facturation ne sont pas évalués par cette collecte. Cette notice ne constitue ni une recommandation clinique ni une autorisation de facturer.\n'+
  'La source complète reste chez son éditeur. Aucun texte, tableau, média ou titre créatif du document n’est reproduit.\nSource officielle : '+m['url'])
  evidence=(docid,m['digest'],'Métadonnées de la référence dans le RSS officiel '+s['url']+' ; empreinte du relevé, pas du document intégral. Vérification limitée à la référence, sans validation clinique.')
  w.rev(rev);w.text('PROFESSIONAL_PRACTICE');w.text(title);w.text(summary);w.text(body);w.flag(True);w.producer(s);w.i(1)
  w.text(docid);w.producer(s);w.text('Référence bibliographique officielle sur '+m['topic']);w.nullable(m['url'],w.text);w.nullable('rss-reference-v1',w.text);w.nullable(m['digest'],w.text);w.nullable(now,w.instant)
- date=dt.date.fromisoformat(published) if published else now.date();w.nullable((date-dt.date(1970,1,1)).days,w.l)
+ date=dt.date.fromisoformat(m['date'][:10]);w.nullable((date-dt.date(1970,1,1)).days,w.l)
  w.text('VERIFIED');w.nullable(rev,w.rev);w.nullable(now,w.instant);w.items([evidence],w.evidence);w.text('unbounded-stated')
  w.text('only');w.items(['doctor'],w.text);w.text('all');w.text('all');w.text('national');w.flag(True);w.justification('Repère de veille documentaire pour la médecine générale sur '+m['topic']+' ; pertinence éditoriale nationale, sans portée clinique ou territoriale inférée.',evidence);w.flag(False)
  w.rev(rev);w.text('VERIFIED');w.nullable(now,w.instant);w.text('ESTABLISHED');w.text('ESTABLISHED');w.text(s['rights_scope']+' ; la qualification concerne exclusivement notre notice originale et le lien, jamais la redistribution du document externe.')
@@ -177,10 +177,9 @@ def collect(root,sources,now):
     itemstate='COMPLEMENTARY_UNVERIFIED' if s['kind']=='COMPLEMENTARY' else 'PENDING_QUALIFICATION'
     if rights_digest:
      identity='fr.optimedcot.notice.'+sha(m['url'].encode())[:24]
-     prior=byrev.get((identity,current.get(identity)))
-     item=make_entry(s,m,now,rights_digest,prior.get('published') if prior else None);identity,version=item['rev']
+     item=make_entry(s,m,now,rights_digest);identity,version=item['rev']
      if current.get(identity)==version:itemstate='UNCHANGED_REFERENCE'
-     elif result['published']<3:
+     elif result['published']<6:
       byrev[item['rev']]=item;current[identity]=version;added+=1;result['published']+=1;itemstate='VERIFIED_REFERENCE_ONLY'
     discovery.append({**m,'verification':itemstate,'clinicalVerification':'NOT_ASSESSED'})
    status.append(result)

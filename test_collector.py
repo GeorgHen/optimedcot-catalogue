@@ -25,10 +25,15 @@ class CollectorTests(unittest.TestCase):
   self.assertEqual(e['rev'][0],e3['rev'][0]);self.assertNotEqual(e['rev'][1],e3['rev'][1])
  def test_codec_checksums_and_repeat(self):
   e=c.make_entry(SOURCE,c.rss(item(),SOURCE,NOW)[0],NOW,'a'*64)
-  blob=c.encode(1,NOW,{e['rev'][0]:e['rev'][1]},[e]);self.assertEqual(1,c.decode(blob)[0])
+  blob=c.encode(1,NOW,{e['rev'][0]:e['rev'][1]},[e]);self.assertEqual(1,c.decode(blob)[0]);self.assertEqual('2026-10-22',c.decode(blob)[2][0]['published'])
   broken=bytearray(blob);broken[-1]^=1
   with self.assertRaises(ValueError):c.decode(bytes(broken))
   with self.assertRaises(ValueError):c.decode(blob[:-1])
+ def test_source_publication_date_is_not_receipt(self):
+  m=c.rss(item(date='Wed, 21 Oct 2026 08:00:00 GMT'),SOURCE,NOW)[0]
+  e=c.make_entry(SOURCE,m,NOW,'a'*64)
+  b=c.encode(1,NOW,{e['rev'][0]:e['rev'][1]},[e])
+  self.assertEqual('2026-10-21',c.decode(b)[2][0]['published'])
  def test_failure_preserves_last_catalogue(self):
   e=c.make_entry(SOURCE,c.rss(item(),SOURCE,NOW)[0],NOW,'a'*64)
   blob=c.encode(1,NOW,{e['rev'][0]:e['rev'][1]},[e])
