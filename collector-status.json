@@ -1,27 +1,26 @@
 {
-  "checkedAt": "2026-10-22T10:28:21.015208+00:00",
-  "newOrModifiedReferences": 3,
+  "checkedAt": "2026-10-22T10:33:26.876288+00:00",
+  "newOrModifiedReferences": 0,
   "generation": 5,
   "sources": [
     {
       "source": "has",
       "kind": "OFFICIAL",
-      "state": "COLLECTED",
-      "references": 3,
-      "published": 0
+      "state": "UNAVAILABLE_OR_QUARANTINED",
+      "reason": "Accès impossible curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server"
     },
     {
       "source": "spf",
       "kind": "OFFICIAL",
       "state": "COLLECTED",
       "references": 3,
-      "published": 3
+      "published": 0
     },
     {
       "source": "ameli",
       "kind": "OFFICIAL",
       "state": "UNAVAILABLE_OR_QUARANTINED",
-      "reason": "HTML non qualifié pour publication automatique ; source enregistrée, aucune synthèse générée"
+      "reason": "Accès impossible curl: (22) The requested URL returned error: 403\n"
     },
     {
       "source": "ansm",
@@ -33,7 +32,7 @@
       "source": "ministere",
       "kind": "OFFICIAL",
       "state": "UNAVAILABLE_OR_QUARANTINED",
-      "reason": "Accès impossible curl: (22) The requested URL returned error: 503\r\n"
+      "reason": "Accès impossible curl: (22) The requested URL returned error: 503\n"
     },
     {
       "source": "omniprat",
@@ -44,9 +43,8 @@
     {
       "source": "splf",
       "kind": "COMPLEMENTARY",
-      "state": "COLLECTED",
-      "references": 2,
-      "published": 0
+      "state": "UNAVAILABLE_OR_QUARANTINED",
+      "reason": "Accès impossible curl: (22) The requested URL returned error: 403\n"
     }
   ],
   "notice": "Only original publication-reference notices are eligible; no clinical/billing rule automatically qualified."
