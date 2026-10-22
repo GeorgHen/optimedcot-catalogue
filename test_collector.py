@@ -2,7 +2,7 @@ import unittest,datetime as dt,json,pathlib,tempfile
 from unittest.mock import patch
 import collector as c
 NOW=dt.datetime(2026,10,22,tzinfo=dt.timezone.utc)
-SOURCE={'id':'has','name':'HAS','kind':'OFFICIAL','url':'https://www.has-sante.fr/feed','rights_url':'https://www.has-sante.fr/legal','publication':'REFERENCE_ONLY','rights_scope':'Original notice only'}
+SOURCE={'format':'rss','id':'has','name':'HAS','kind':'OFFICIAL','url':'https://www.has-sante.fr/feed','rights_url':'https://www.has-sante.fr/legal','publication':'REFERENCE_ONLY','rights_scope':'Original notice only'}
 def item(url='https://www.has-sante.fr/one',title='Vaccination',date='Thu, 22 Oct 2026 08:00:00 GMT'):
  return f'<rss><channel><item><title>{title}</title><link>{url}</link><pubDate>{date}</pubDate></item></channel></rss>'.encode()
 class CollectorTests(unittest.TestCase):
@@ -49,4 +49,13 @@ class CollectorTests(unittest.TestCase):
    root=pathlib.Path(tmp);(root/'catalogue.snapshot').write_bytes(blob)
    with patch.object(c,'fetch',side_effect=[item(),b'librement 321-1']):out,status,_=c.collect(root,[SOURCE],NOW)
    self.assertEqual(blob,out);self.assertEqual(0,status['newOrModifiedReferences'])
+ def test_twenty_five_new_references_are_not_capped_at_six(self):
+  old=c.make_entry(SOURCE,c.rss(item(url='https://www.has-sante.fr/old'),SOURCE,NOW)[0],NOW,'a'*64)
+  blob=c.encode(1,NOW,{old['rev'][0]:old['rev'][1]},[old])
+  entries=''.join(f'<item><title>SYNTHETIC Vaccination {n}</title><link>https://www.has-sante.fr/new-{n}</link><pubDate>Thu, 22 Oct 2026 08:00:00 GMT</pubDate></item>' for n in range(25))
+  rss=('<rss><channel>'+entries+'</channel></rss>').encode()
+  with tempfile.TemporaryDirectory() as tmp:
+   root=pathlib.Path(tmp);(root/'catalogue.snapshot').write_bytes(blob)
+   with patch.object(c,'fetch',side_effect=[rss,b'librement 321-1']):out,status,_=c.collect(root,[SOURCE],NOW)
+   self.assertEqual(25,status['newOrModifiedReferences']);self.assertEqual(26,len(c.decode(out)[1]))
 if __name__=='__main__':unittest.main()

@@ -179,7 +179,7 @@ def collect(root,sources,now):
      identity='fr.optimedcot.notice.'+sha(m['url'].encode())[:24]
      item=make_entry(s,m,now,rights_digest);identity,version=item['rev']
      if current.get(identity)==version:itemstate='UNCHANGED_REFERENCE'
-     elif result['published']<6:
+     else:
       byrev[item['rev']]=item;current[identity]=version;added+=1;result['published']+=1;itemstate='VERIFIED_REFERENCE_ONLY'
     discovery.append({**m,'verification':itemstate,'clinicalVerification':'NOT_ASSESSED'})
    status.append(result)
