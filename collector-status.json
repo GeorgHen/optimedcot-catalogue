@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-22T10:51:18.341524+00:00",
+  "checkedAt": "2026-10-22T20:34:24.451293+00:00",
   "newOrModifiedReferences": 0,
   "generation": 7,
   "sources": [
@@ -26,14 +26,15 @@
     {
       "source": "ansm",
       "kind": "OFFICIAL",
-      "state": "UNAVAILABLE_OR_QUARANTINED",
-      "reason": "XML externe interdit"
+      "state": "COLLECTED",
+      "references": 0,
+      "published": 0
     },
     {
       "source": "ministere",
       "kind": "OFFICIAL",
       "state": "UNAVAILABLE_OR_QUARANTINED",
-      "reason": "Accès impossible curl: (22) The requested URL returned error: 503\r\n"
+      "reason": "HTML non qualifié pour publication automatique ; source enregistrée, aucune synthèse générée"
     },
     {
       "source": "omniprat",
