@@ -58,5 +58,35 @@
     "digest": "7933668b771397fdf16c8510816db7401581e689ff4843f27a7e399a759f0e86",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27",
+    "date": "2026-10-21T10:16:11+00:00",
+    "topic": "surveillance des arboviroses",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "digest": "b00339bcf55e57bb14158a21537bb5faef3052e1441d033df34454810f3dacfe",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/index.php/sante-mentale/bulletin-national/sante-mentale-bulletin-mensuel-du-21-octobre-2026",
+    "date": "2026-10-21T09:49:33+00:00",
+    "topic": "santé mentale",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "digest": "713b1729689f6337fc5c38ccd946e49825d698fe1655bb930a660ebe9a5c22f0",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/index.php/toxi-infections-alimentaires-collectives/bulletin-national/toxi-infections-alimentaires-collectives-en-france-bilan-2024",
+    "date": "2026-10-16T16:22:18+00:00",
+    "topic": "prévention des infections",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "digest": "ac539cf2921967ada5ed0b9f210de7ffd0033dff4fe40f30fa83f174a49636aa",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
   }
 ]
