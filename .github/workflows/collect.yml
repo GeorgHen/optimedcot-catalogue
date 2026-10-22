@@ -1,0 +1,57 @@
+name: Collect institutional references and publish
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5,17 * * *'
+  push:
+    branches: [main]
+    paths: ['collector.py', 'sources.json', 'test_collector.py', '.github/workflows/collect.yml']
+concurrency:
+  group: signed-catalogue
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - name: Collector security and preservation tests
+        run: python3 -m unittest -v test_collector
+      - name: Collect bounded references and sign with OptiMedCot key
+        env:
+          OPTIMEDCOT_SIGNING_KEY_B64: ${{ secrets.OPTIMEDCOT_SIGNING_KEY_B64 }}
+        run: python3 collector.py --root . --sources sources.json
+      - name: Commit complete signed generation atomically
+        run: |
+          git config user.name 'OptiMedCot catalogue bot'
+          git config user.email 'catalogue-bot@users.noreply.github.com'
+          git add -- catalogue.snapshot catalogue.sig collector-status.json discovery.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Collect verified institutional publication references'
+            git push origin HEAD:main
+          fi
+      - name: Prepare public allowlist only
+        run: |
+          mkdir site
+          cp -- .nojekyll index.html public-key.txt catalogue.snapshot catalogue.sig attribution.txt source-reference.txt collector-status.json discovery.json site/
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b
+        with:
+          path: site
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish complete immutable Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
