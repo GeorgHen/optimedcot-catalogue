@@ -5,8 +5,10 @@
     "topic": "diabète",
     "issuer": "has",
     "type": "OFFICIAL",
-    "digest": "02776e2cac0dc82dac94902a7b726848db343d6c8aea0e6b90dc367f939e2005",
-    "verification": "UNCHANGED_REFERENCE",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "digest": "c4667dcc5fb7e2327473dd273024f86ca3cfc86e96189e7dda8a0dccbc5ea78d",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -15,8 +17,10 @@
     "topic": "vaccination",
     "issuer": "has",
     "type": "OFFICIAL",
-    "digest": "adb2a21a0dba056e1c24bca0d15348a3d227cf9d4294cdec219729b55dd01a7e",
-    "verification": "UNCHANGED_REFERENCE",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "e41ab15acec29545ceec59c0d069e004afc3b6847d0078012da12f3973119b3c",
+    "digest": "da3249989bfcd5e833509d3330e9f3a18c7d7cf594649a721cb4e4f94d1baa7f",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -25,8 +29,10 @@
     "topic": "santé mentale",
     "issuer": "has",
     "type": "OFFICIAL",
-    "digest": "edd6b56ad75c9e23eedb1bc1bebb179d4cd1daadd44412b4e97ec98ce8edf331",
-    "verification": "UNCHANGED_REFERENCE",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "0991274c88216edcc50f9571b060140476b8979f51ae3ab62fe5a0e7bec8dbb4",
+    "digest": "456a10851d7f853b8e6bfd010f5e7ad84a92d5b26cbf6710ca9f3f3c638cd4a2",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -35,8 +41,10 @@
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
-    "digest": "944628fb9932a887e1d4b23eb539b547acf1bd9b5c81e768017fa5da8e876032",
-    "verification": "UNCHANGED_REFERENCE",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "13deb7b59237b985cf4a1184b6cbb50894ef9aa07b0dd0f13b423c3f8a67bae8",
+    "digest": "d149af7340fcad48e51226d963fe9998555d9eeb6cb8cb21eae3ae8e6f4e7448",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -45,8 +53,10 @@
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
-    "digest": "220fa77b1c9994bab211d9a8a92e8367604508893076efabb4b67718fd102b15",
-    "verification": "UNCHANGED_REFERENCE",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "34e211a11994abeec98a0eec0fcfa3f20c5a76c81cc81a7ea5e62f7564db7b4b",
+    "digest": "2c8274383bcb7e02bc1f3b7aa22a39fdc9da8a87924b4b505e4de5e83f125bba",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -55,8 +65,10 @@
     "topic": "surveillance respiratoire",
     "issuer": "spf",
     "type": "OFFICIAL",
-    "digest": "7933668b771397fdf16c8510816db7401581e689ff4843f27a7e399a759f0e86",
-    "verification": "UNCHANGED_REFERENCE",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "d61948659915f450a93515a5f5bb1c431432b151e666dd4dc4ed1974119cb053",
+    "digest": "3bbe3b2127ea1a375ba44f2a4146d6b83cda22792da6afec912188d927fe7c8a",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -65,7 +77,9 @@
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
-    "digest": "b00339bcf55e57bb14158a21537bb5faef3052e1441d033df34454810f3dacfe",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "7c26f16a433a168f88c2c5296b8c9f4faf7859f8d9736a6747d7a4a5a7042444",
+    "digest": "afe14eba064b894cedb6dd4bea14a4ad932e75367045f62c6b89d774f39eed49",
     "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -75,7 +89,9 @@
     "topic": "santé mentale",
     "issuer": "spf",
     "type": "OFFICIAL",
-    "digest": "713b1729689f6337fc5c38ccd946e49825d698fe1655bb930a660ebe9a5c22f0",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "090b5f0e7dec52cb001080906845c1d8fe59f2cf20c990a07e18c0386602c470",
+    "digest": "0fb1770c836bb598f08de8a164ee376c1852d3c993b230063a9f8e44d446a6e7",
     "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -85,7 +101,9 @@
     "topic": "prévention des infections",
     "issuer": "spf",
     "type": "OFFICIAL",
-    "digest": "ac539cf2921967ada5ed0b9f210de7ffd0033dff4fe40f30fa83f174a49636aa",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "e99ca4469e0a663b628c82837fe550198ef7bf4fa7910b7cdaa00d3eaea6c5f7",
+    "digest": "fde4135772645c09a02b70a71ee34ffc4785cfe0fe7e2534a95f185193e3d648",
     "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   }
