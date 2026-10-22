@@ -130,7 +130,7 @@ def rss(raw,source,now):
   folded=unicodedata.normalize('NFKC',title).lower()
   topic=next((name for name,pattern in TOPICS if re.search(pattern,folded)),None)
   if not topic or EXCLUDE.search(folded):continue
-  if date is None and source['id']=='spf' and page_checks<3:
+  if date is None and source['id']=='spf' and page_checks<6:
    page_checks+=1
    page=fetch(url).decode('utf-8',errors='strict')
    match=re.search(r'<time\s+datetime="([^"]+)"[^>]*>\s*Publi(?:é|&eacute;) le',page,re.I)
