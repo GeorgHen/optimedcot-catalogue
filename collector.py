@@ -7,6 +7,7 @@ import argparse,base64,datetime as dt,email.utils,hashlib,html,json,os,pathlib,r
 MAX_BYTES=8*1024*1024; MAX_SOURCE=2_000_000; MAX_TOTAL=12_000_000; MAX_ENTRIES=512
 MAGIC=b'OMCADV01'; total=0
 TOPICS=[('surveillance respiratoire',r'grippe|bronchiolit|respiratoire|bpco|pneum'),('surveillance des arboviroses',r'chikungunya|dengue|zika'),('recours aux urgences',r'oscour'),('surveillance de la mortalité',r'mortalité'),('santé mentale',r'santé mentale|depress|dépress|psych'),('vaccination',r'vaccin'),('diabète',r'diab'),('prévention cardiovasculaire',r'cardiovasc|hypertension'),('prévention des infections',r'infection|antibio|rougeole|coqueluche'),('dépistage',r'dépist|depist'),('parcours de soins',r'parcours de soins|médecine générale|soins primaires')]
+TOPICS += [('électrocardiogramme',r'\becg\b|électrocardio|electrocardio'),('soins palliatifs',r'palliat|fin de vie'),('affections de longue durée',r'longues? durées?|\bald\b'),('anticoagulation',r'anticoag|antithrombot'),('maladie cœliaque',r'coeliaque|cœliaque'),('douleur',r'douleur'),('cancer',r'cancer|oncolog'),('addictions',r'addict|tabac') ]
 EXCLUDE=re.compile(r'candidature|recrut|emploi|chef de projet|certification|commission|essms|offre d|congrès|webinaire',re.I)
 def sha(b):return hashlib.sha256(b).hexdigest()
 def canonical(u,host):
@@ -139,7 +140,7 @@ def rss(raw,source,now):
    if match:date=parse_date(match.group(1))
   if date is None:continue
   day=date.date() if isinstance(date,dt.datetime) else date
-  if day>now.date() or (now.date()-day).days>120:continue
+  if day>now.date():continue  # Old publication is not automatically obsolete; no clinical applicability inferred.
   metadata={'url':url,'date':date.isoformat(),'topic':topic,'issuer':source['id'],'type':source['kind'],'profile':'reference-only-v2','descriptionDigest':sha((node.findtext('description') or '').encode('utf-8'))}
   # HAS metadata only, under its explicit public-information reuse terms. Never SPF text.
   if source.get('publication')=='HAS_METADATA':

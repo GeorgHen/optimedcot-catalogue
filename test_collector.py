@@ -13,9 +13,10 @@ class CollectorTests(unittest.TestCase):
   for raw in [b'<!DOCTYPE rss><rss/>',b'<!ENTITY a SYSTEM "file:///x"><rss/>',b'<html/>']:
    with self.assertRaises(ValueError):c.rss(raw,SOURCE,NOW)
  def test_dates_are_not_invented(self):
-  for date in ['', '2026-10-23','2020-01-01','Thu, 22 Oct 2026 08:00:00']:
+  for date in ['', '2026-10-23','Thu, 22 Oct 2026 08:00:00']:
    self.assertEqual([],c.rss(item(date=date),SOURCE,NOW))
   self.assertEqual(1,len(c.rss(item(),SOURCE,NOW)))
+  self.assertEqual(1,len(c.rss(item(date='2020-01-01'),SOURCE,NOW)))
  def test_stable_identity_revision_and_content(self):
   m=c.rss(item(),SOURCE,NOW)[0];e=c.make_entry(SOURCE,m,NOW,'a'*64)
   e2=c.make_entry(SOURCE,m,NOW,'a'*64)
