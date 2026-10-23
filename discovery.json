@@ -5,10 +5,12 @@
     "topic": "diabète",
     "issuer": "has",
     "type": "OFFICIAL",
-    "profile": "reference-only-v2",
+    "profile": "has-rss-metadata-v1",
     "descriptionDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "digest": "c4667dcc5fb7e2327473dd273024f86ca3cfc86e96189e7dda8a0dccbc5ea78d",
-    "verification": "UNCHANGED_REFERENCE",
+    "officialTitle": "Réponse à la saisine de l’Assurance Maladie : Guide d’accompagnement pharmaceutique des patients diabétiques de type 2 et fiches de suivi patient",
+    "officialAbstract": "",
+    "digest": "0b0be0b270365e0e1eb39ad6c35c14d799db4a8bf3dd90b5064e860f1e996271",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -17,10 +19,12 @@
     "topic": "vaccination",
     "issuer": "has",
     "type": "OFFICIAL",
-    "profile": "reference-only-v2",
+    "profile": "has-rss-metadata-v1",
     "descriptionDigest": "e41ab15acec29545ceec59c0d069e004afc3b6847d0078012da12f3973119b3c",
-    "digest": "da3249989bfcd5e833509d3330e9f3a18c7d7cf594649a721cb4e4f94d1baa7f",
-    "verification": "UNCHANGED_REFERENCE",
+    "officialTitle": "Stratégie de vaccination contre la Covid-19. Place du vaccin ARNm COMIRNATY 10 µg chez les enfants âgés de 6 mois à 4 ans dans la stratégie vaccinale en remplacement de la formulation 3 µg",
+    "officialAbstract": "La HAS évalue la place du vaccin à ARNm COMIRNATY 10 µg (Pfizer) contre la COVID-19 chez les nourrissons et enfants âgés de 6 mois à 4 ans. Elle considère que ce vaccin peut être utilisé dans le cadre de son AMM en remplacement de la formulation pédiatrique 3 µg chez les enfants à risque de forme grave ou vivant dans l'entourage de personnes immunodéprimées",
+    "digest": "c764436322c5ee1d20a28a0871b4fa856a99e7e3d6395f56a134cd89be216082",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -29,10 +33,12 @@
     "topic": "santé mentale",
     "issuer": "has",
     "type": "OFFICIAL",
-    "profile": "reference-only-v2",
+    "profile": "has-rss-metadata-v1",
     "descriptionDigest": "0991274c88216edcc50f9571b060140476b8979f51ae3ab62fe5a0e7bec8dbb4",
-    "digest": "456a10851d7f853b8e6bfd010f5e7ad84a92d5b26cbf6710ca9f3f3c638cd4a2",
-    "verification": "UNCHANGED_REFERENCE",
+    "officialTitle": "Label - Flash sécurité patient « Vigilance somatique en psychiatrie, prendre soin du mental…sans passer à côté du vital ! »",
+    "officialAbstract": "",
+    "digest": "5fc38acc799c3bd19a1f43816605b06913269fda8ea335a56f54850796565f2a",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
