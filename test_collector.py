@@ -58,4 +58,13 @@ class CollectorTests(unittest.TestCase):
    root=pathlib.Path(tmp);(root/'catalogue.snapshot').write_bytes(blob)
    with patch.object(c,'fetch',side_effect=[rss,b'librement 321-1']):out,status,_=c.collect(root,[SOURCE],NOW)
    self.assertEqual(25,status['newOrModifiedReferences']);self.assertEqual(26,len(c.decode(out)[1]))
+ def test_has_metadata_is_exact_and_other_sources_stay_link_only(self):
+  source={**SOURCE,'publication':'HAS_METADATA'}
+  xml=item(title='SYNTHETIC Vaccination note de cadrage').replace(b'</item>',b'<description>Consultation en cours. Aucun avis final.</description></item>')
+  m=c.rss(xml,source,NOW)[0]
+  self.assertEqual('SYNTHETIC Vaccination note de cadrage',m['officialTitle'])
+  self.assertEqual('Consultation en cours. Aucun avis final.',m['officialAbstract'])
+  e=c.make_entry(source,m,NOW,'a'*64)
+  self.assertEqual(m['officialTitle'],e['title'])
+  self.assertNotIn('officialTitle',c.rss(xml,SOURCE,NOW)[0])
 if __name__=='__main__':unittest.main()

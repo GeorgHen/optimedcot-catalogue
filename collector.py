@@ -121,7 +121,9 @@ def rss(raw,source,now):
  root=ET.fromstring(raw)
  if root.tag.split('}')[-1]!='rss':raise ValueError('Réponse non RSS')
  items=[];page_checks=0;host=urllib.parse.urlsplit(source['url']).hostname
- for node in root.findall('./channel/item')[:60]:
+ nodes=root.findall('./channel/item')
+ if len(nodes)>MAX_ENTRIES:raise ValueError('Budget des références RSS dépassé')
+ for node in nodes:
   title=html.unescape(node.findtext('title') or '').strip();url=node.findtext('link') or ''
   date=parse_date(node.findtext('pubDate') or node.findtext('{http://purl.org/dc/elements/1.1/}date'))
   if not title or '\ufffd' in title:continue
@@ -139,7 +141,16 @@ def rss(raw,source,now):
   day=date.date() if isinstance(date,dt.datetime) else date
   if day>now.date() or (now.date()-day).days>120:continue
   metadata={'url':url,'date':date.isoformat(),'topic':topic,'issuer':source['id'],'type':source['kind'],'profile':'reference-only-v2','descriptionDigest':sha((node.findtext('description') or '').encode('utf-8'))}
-  # No RSS description/title is redistributed when the rights profile permits links only.
+  # HAS metadata only, under its explicit public-information reuse terms. Never SPF text.
+  if source.get('publication')=='HAS_METADATA':
+   description=node.findtext('description') or ''
+   description=re.sub(r'<(script|style)\b[^>]*>.*?</\1>','',description,flags=re.I|re.S)
+   description=' '.join(html.unescape(re.sub(r'<[^>]+>',' ',description)).split())
+   if re.search(r'copyright|tous droits|droits r.serv.s|©',title+' '+description,re.I):continue
+   if len(title)>2000 or len(description)>8000:continue
+   metadata['officialTitle']=title;metadata['officialAbstract']=description
+   metadata['profile']='has-rss-metadata-v1'
+  # Sources restricted to links never redistribute their titles/abstracts.
   metadata['digest']=sha(json.dumps({'title':title,**metadata},ensure_ascii=False,sort_keys=True).encode())
   items.append(metadata)
  return items
@@ -147,17 +158,19 @@ def rss(raw,source,now):
 def make_entry(s,m,now,rights_digest):
  identity='fr.optimedcot.notice.'+sha(m['url'].encode())[:24];revision='metadata-'+m['digest'][:24];rev=(identity,revision);docid='rss-reference';w=Writer()
  title=s['name']+' — '+m['topic'].capitalize()+' : publication à consulter'
- summary='Une publication institutionnelle sur ce sujet est signalée. Consulter le document officiel avant toute décision.'
+ title=m.get('officialTitle') or title
+ summary=m.get('officialAbstract') or title
  body=('Notice documentaire originale OptiMedCot. Source officielle — '+s['name']+'.\nSujet : '+m['topic']+'.\nDate fournie par le flux : '+m['date'][:10]+'.\n'+
  'Vérification : origine HTTPS, référence, sujet et métadonnées du flux contrôlés le '+now.date().isoformat()+'. Le contenu clinique, les tarifs et les conditions de facturation ne sont pas évalués par cette collecte. Cette notice ne constitue ni une recommandation clinique ni une autorisation de facturer.\n'+
- 'La source complète reste chez son éditeur. Aucun texte, tableau, média ou titre créatif du document n’est reproduit.\nSource officielle : '+m['url'])
+ ('Métadonnées éditoriales du flux HAS, sans validation clinique. Source et date indiquées ; document intégral chez son éditeur.\n' if m.get('officialTitle') else 'Lien documentaire seulement ; aucun contenu clinique reproduit.\n')+'Source officielle : '+m['url'])
+ if m.get('officialAbstract'):body=m['officialAbstract']+'\n\n'+body
  evidence=(docid,m['digest'],'Métadonnées de la référence dans le RSS officiel '+s['url']+' ; empreinte du relevé, pas du document intégral. Vérification limitée à la référence, sans validation clinique.')
  w.rev(rev);w.text('PROFESSIONAL_PRACTICE');w.text(title);w.text(summary);w.text(body);w.flag(True);w.producer(s);w.i(1)
- w.text(docid);w.producer(s);w.text('Référence bibliographique officielle sur '+m['topic']);w.nullable(m['url'],w.text);w.nullable('rss-reference-v1',w.text);w.nullable(m['digest'],w.text);w.nullable(now,w.instant)
+ w.text(docid);w.producer(s);w.text('Référence bibliographique officielle sur '+m['topic']);w.nullable(m['url'],w.text);w.nullable('has-rss-metadata-v1' if m.get('officialTitle') else 'rss-reference-v1',w.text);w.nullable(m['digest'],w.text);w.nullable(now,w.instant)
  date=dt.date.fromisoformat(m['date'][:10]);w.nullable((date-dt.date(1970,1,1)).days,w.l)
  w.text('VERIFIED');w.nullable(rev,w.rev);w.nullable(now,w.instant);w.items([evidence],w.evidence);w.text('unbounded-stated')
  w.text('only');w.items(['doctor'],w.text);w.text('all');w.text('all');w.text('national');w.flag(True);w.justification('Repère de veille documentaire pour la médecine générale sur '+m['topic']+' ; pertinence éditoriale nationale, sans portée clinique ou territoriale inférée.',evidence);w.flag(False)
- w.rev(rev);w.text('VERIFIED');w.nullable(now,w.instant);w.text('ESTABLISHED');w.text('ESTABLISHED');w.text(s['rights_scope']+' ; la qualification concerne exclusivement notre notice originale et le lien, jamais la redistribution du document externe.')
+ w.rev(rev);w.text('VERIFIED');w.nullable(now,w.instant);w.text('ESTABLISHED');w.text('ESTABLISHED');w.text(s['rights_scope']+' ; vérification limitée aux métadonnées, aucune validation clinique ni redistribution du document intégral.')
  w.nullable(s['rights_url'],w.text);w.nullable(rights_digest,w.text);w.text('Mentions de l’éditeur : réutilisation des informations publiques ou établissement de liens ; scope REFERENCE_ONLY, sans reproduction du document.');w.items([docid],w.text)
  return {'rev':rev,'title':title,'raw':bytes(w.b)}
 
@@ -169,7 +182,7 @@ def collect(root,sources,now):
    if s['format']!='rss':raise ValueError('HTML non qualifié pour publication automatique ; source enregistrée, aucune synthèse générée')
    candidates=rss(raw,s,now);result={'source':s['id'],'kind':s['kind'],'state':'COLLECTED','references':len(candidates),'published':0}
    rights_digest=None
-   if s.get('publication')=='REFERENCE_ONLY' and candidates:
+   if s.get('publication') in ('REFERENCE_ONLY','HAS_METADATA') and candidates:
     rights=fetch(s['rights_url']);text=rights.decode('utf-8',errors='strict').lower()
     if not ((s['id']=='has' and 'librement' in text and '321-1' in text) or (s['id']=='spf' and 'tablissement de liens' in text and 'sans autorisation' in text)):raise ValueError('Base de droits absente ou modifiée')
     rights_digest=sha(rights)
