@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-10-23T07:32:23.040223+00:00",
-  "newOrModifiedReferences": 3,
-  "generation": 8,
+  "checkedAt": "2026-10-23T07:35:42.578976+00:00",
+  "newOrModifiedReferences": 11,
+  "generation": 9,
   "sources": [
     {
       "source": "has",
       "kind": "OFFICIAL",
       "state": "COLLECTED",
-      "references": 3,
-      "published": 3
+      "references": 14,
+      "published": 11
     },
     {
       "source": "spf",
@@ -34,7 +34,7 @@
       "source": "ministere",
       "kind": "OFFICIAL",
       "state": "UNAVAILABLE_OR_QUARANTINED",
-      "reason": "Accès impossible curl: (56) Recv failure: Connection was reset\r\n"
+      "reason": "HTML non qualifié pour publication automatique ; source enregistrée, aucune synthèse générée"
     },
     {
       "source": "omniprat",
