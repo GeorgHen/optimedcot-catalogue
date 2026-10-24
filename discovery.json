@@ -196,14 +196,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
     "date": "2026-10-21T17:07:24+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "13deb7b59237b985cf4a1184b6cbb50894ef9aa07b0dd0f13b423c3f8a67bae8",
-    "digest": "d149af7340fcad48e51226d963fe9998555d9eeb6cb8cb21eae3ae8e6f4e7448",
+    "digest": "1e17f864e455fee1bc35507418235f5a6854e5bf4bd6420321555a890733e8f6",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -252,19 +252,19 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "090b5f0e7dec52cb001080906845c1d8fe59f2cf20c990a07e18c0386602c470",
     "digest": "2c828f256a5ce71b8e82e631637e3a0f08c99461e7b103c163a3f0f24f6a59a8",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/toxi-infections-alimentaires-collectives/bulletin-national/toxi-infections-alimentaires-collectives-en-france-bilan-2024",
+    "url": "https://www.santepubliquefrance.fr/toxi-infections-alimentaires-collectives/bulletin-national/toxi-infections-alimentaires-collectives-en-france-bilan-2024",
     "date": "2026-10-16T16:22:18+00:00",
     "topic": "prévention des infections",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "e99ca4469e0a663b628c82837fe550198ef7bf4fa7910b7cdaa00d3eaea6c5f7",
-    "digest": "fde4135772645c09a02b70a71ee34ffc4785cfe0fe7e2534a95f185193e3d648",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "8640f8882ab8c0e9d6ad444593b72f06cafcadddbb8e50761c105a74041bb081",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   }
 ]
