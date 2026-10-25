@@ -228,7 +228,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "d61948659915f450a93515a5f5bb1c431432b151e666dd4dc4ed1974119cb053",
     "digest": "96e25d2da7bdf813cb64e0d96f82b4e7ac2433e84807786a686c10859138112f",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
