@@ -232,14 +232,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27",
+    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27",
     "date": "2026-10-21T10:16:11+00:00",
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "7c26f16a433a168f88c2c5296b8c9f4faf7859f8d9736a6747d7a4a5a7042444",
-    "digest": "1c354995451c1b3580b8df060286a88bfb9b93fbbe2d90f9629f1f3dd7990077",
+    "digest": "afe14eba064b894cedb6dd4bea14a4ad932e75367045f62c6b89d774f39eed49",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
