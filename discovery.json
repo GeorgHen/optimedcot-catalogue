@@ -196,26 +196,26 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
     "date": "2026-10-21T17:07:24+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "13deb7b59237b985cf4a1184b6cbb50894ef9aa07b0dd0f13b423c3f8a67bae8",
-    "digest": "d149af7340fcad48e51226d963fe9998555d9eeb6cb8cb21eae3ae8e6f4e7448",
+    "digest": "1e17f864e455fee1bc35507418235f5a6854e5bf4bd6420321555a890733e8f6",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
     "date": "2026-10-21T17:05:19+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "34e211a11994abeec98a0eec0fcfa3f20c5a76c81cc81a7ea5e62f7564db7b4b",
-    "digest": "2c8274383bcb7e02bc1f3b7aa22a39fdc9da8a87924b4b505e4de5e83f125bba",
+    "digest": "cb8701aabbdc7ee3059c8702215d3c2c8ee14e5692a6180c8e33a54b1b5b6c0c",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -232,14 +232,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27",
+    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27",
     "date": "2026-10-21T10:16:11+00:00",
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "7c26f16a433a168f88c2c5296b8c9f4faf7859f8d9736a6747d7a4a5a7042444",
-    "digest": "afe14eba064b894cedb6dd4bea14a4ad932e75367045f62c6b89d774f39eed49",
+    "digest": "1c354995451c1b3580b8df060286a88bfb9b93fbbe2d90f9629f1f3dd7990077",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -256,14 +256,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/toxi-infections-alimentaires-collectives/bulletin-national/toxi-infections-alimentaires-collectives-en-france-bilan-2024",
+    "url": "https://www.santepubliquefrance.fr/toxi-infections-alimentaires-collectives/bulletin-national/toxi-infections-alimentaires-collectives-en-france-bilan-2024",
     "date": "2026-10-16T16:22:18+00:00",
     "topic": "prévention des infections",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "e99ca4469e0a663b628c82837fe550198ef7bf4fa7910b7cdaa00d3eaea6c5f7",
-    "digest": "fde4135772645c09a02b70a71ee34ffc4785cfe0fe7e2534a95f185193e3d648",
+    "digest": "8640f8882ab8c0e9d6ad444593b72f06cafcadddbb8e50761c105a74041bb081",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
