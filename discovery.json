@@ -196,6 +196,42 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-28-octobre-2026",
+    "date": "2026-10-28T15:32:54+00:00",
+    "topic": "surveillance de la mortalité",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "a91308c459416e3bae2e09439601f29673bc7c9ae1e9c974d5f2fb4c35b053cf",
+    "digest": "5acc68e3107da6add69a0394d3dec743991eadb4e1c16d3a9bcebddda77ac14d",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-28-octobre-2026",
+    "date": "2026-10-28T15:23:56+00:00",
+    "topic": "recours aux urgences",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "20b23c4f91fc83da6ffae71e842dc0f9d0dd46c4963fe2d5294f7ebb33547009",
+    "digest": "026f6c8ab0898d0334894cdf07914215146655602fcc0217d3a585acacf98325",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-28-octobre-2026",
+    "date": "2026-10-28T13:15:55+00:00",
+    "topic": "surveillance respiratoire",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "9ae9083bc17fb17f3ff84fc4eea6751399228df424d9cb134ef21e7f22ba4d73",
+    "digest": "26c50179d64d6d91bcf1a451d3a417d6dcf0459fbee3e1472114f8c211ece669",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-28",
     "date": "2026-10-28T08:55:39+00:00",
     "topic": "surveillance des arboviroses",
@@ -204,7 +240,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "57e45c4d37d5ec62b11d490fe9b8368a708947a6f8bca6b03803fb3ea4a360f9",
     "digest": "5b3a7f46f2dac82ddcdde381b0aa89fe895099c8971872ac264bcf6f34f067be",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -220,50 +256,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
     "date": "2026-10-21T17:05:19+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "34e211a11994abeec98a0eec0fcfa3f20c5a76c81cc81a7ea5e62f7564db7b4b",
-    "digest": "2c8274383bcb7e02bc1f3b7aa22a39fdc9da8a87924b4b505e4de5e83f125bba",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/index.php/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-21-octobre-2026",
-    "date": "2026-10-21T16:43:33+00:00",
-    "topic": "surveillance respiratoire",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "d61948659915f450a93515a5f5bb1c431432b151e666dd4dc4ed1974119cb053",
-    "digest": "96e25d2da7bdf813cb64e0d96f82b4e7ac2433e84807786a686c10859138112f",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27",
-    "date": "2026-10-21T10:16:11+00:00",
-    "topic": "surveillance des arboviroses",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "7c26f16a433a168f88c2c5296b8c9f4faf7859f8d9736a6747d7a4a5a7042444",
-    "digest": "afe14eba064b894cedb6dd4bea14a4ad932e75367045f62c6b89d774f39eed49",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/index.php/sante-mentale/bulletin-national/sante-mentale-bulletin-mensuel-du-21-octobre-2026",
-    "date": "2026-10-21T09:49:33+00:00",
-    "topic": "santé mentale",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "090b5f0e7dec52cb001080906845c1d8fe59f2cf20c990a07e18c0386602c470",
-    "digest": "0fb1770c836bb598f08de8a164ee376c1852d3c993b230063a9f8e44d446a6e7",
+    "digest": "cb8701aabbdc7ee3059c8702215d3c2c8ee14e5692a6180c8e33a54b1b5b6c0c",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
