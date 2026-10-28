@@ -196,26 +196,38 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-28",
+    "date": "2026-10-28T08:55:39+00:00",
+    "topic": "surveillance des arboviroses",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "57e45c4d37d5ec62b11d490fe9b8368a708947a6f8bca6b03803fb3ea4a360f9",
+    "digest": "5b3a7f46f2dac82ddcdde381b0aa89fe895099c8971872ac264bcf6f34f067be",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
     "date": "2026-10-21T17:07:24+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "13deb7b59237b985cf4a1184b6cbb50894ef9aa07b0dd0f13b423c3f8a67bae8",
-    "digest": "1e17f864e455fee1bc35507418235f5a6854e5bf4bd6420321555a890733e8f6",
+    "digest": "d149af7340fcad48e51226d963fe9998555d9eeb6cb8cb21eae3ae8e6f4e7448",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
     "date": "2026-10-21T17:05:19+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "34e211a11994abeec98a0eec0fcfa3f20c5a76c81cc81a7ea5e62f7564db7b4b",
-    "digest": "cb8701aabbdc7ee3059c8702215d3c2c8ee14e5692a6180c8e33a54b1b5b6c0c",
+    "digest": "2c8274383bcb7e02bc1f3b7aa22a39fdc9da8a87924b4b505e4de5e83f125bba",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -252,18 +264,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "090b5f0e7dec52cb001080906845c1d8fe59f2cf20c990a07e18c0386602c470",
     "digest": "0fb1770c836bb598f08de8a164ee376c1852d3c993b230063a9f8e44d446a6e7",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/toxi-infections-alimentaires-collectives/bulletin-national/toxi-infections-alimentaires-collectives-en-france-bilan-2024",
-    "date": "2026-10-16T16:22:18+00:00",
-    "topic": "prévention des infections",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "e99ca4469e0a663b628c82837fe550198ef7bf4fa7910b7cdaa00d3eaea6c5f7",
-    "digest": "8640f8882ab8c0e9d6ad444593b72f06cafcadddbb8e50761c105a74041bb081",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
