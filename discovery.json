@@ -208,15 +208,15 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-28-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-28-octobre-2026",
     "date": "2026-10-28T15:23:56+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "20b23c4f91fc83da6ffae71e842dc0f9d0dd46c4963fe2d5294f7ebb33547009",
-    "digest": "026f6c8ab0898d0334894cdf07914215146655602fcc0217d3a585acacf98325",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "39530b78be48c8fb631bb37e03c6f40039e3328d45346e007368e302b41bb9e0",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -232,15 +232,15 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-28",
+    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-28",
     "date": "2026-10-28T08:55:39+00:00",
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "57e45c4d37d5ec62b11d490fe9b8368a708947a6f8bca6b03803fb3ea4a360f9",
-    "digest": "5b3a7f46f2dac82ddcdde381b0aa89fe895099c8971872ac264bcf6f34f067be",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "8902e10887af14ed6bcca2cdb7548766762a7e0d394c0ee60b91a1103d9f302c",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -256,14 +256,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
     "date": "2026-10-21T17:05:19+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "34e211a11994abeec98a0eec0fcfa3f20c5a76c81cc81a7ea5e62f7564db7b4b",
-    "digest": "cb8701aabbdc7ee3059c8702215d3c2c8ee14e5692a6180c8e33a54b1b5b6c0c",
+    "digest": "2c8274383bcb7e02bc1f3b7aa22a39fdc9da8a87924b4b505e4de5e83f125bba",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
