@@ -202,8 +202,8 @@
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
-    "descriptionDigest": "4fe0da1fcdfb591c830c95ca5bbbdc84457cfb95fc68949464b19b6047faf97d",
-    "digest": "927f8702363e196502cfe0ad56e70ff9295cb555c04ef4f9c25130f8b39cd37d",
+    "descriptionDigest": "a83cc7892454fe152d34a547b3b09f1e23ada686328ecf046c22b9f55e06c040",
+    "digest": "ae35d395b96b2e0f788249c3d5eaaf57c56022e4ce7b18b2165733dc301954a4",
     "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -240,7 +240,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "9ae9083bc17fb17f3ff84fc4eea6751399228df424d9cb134ef21e7f22ba4d73",
     "digest": "c026ba0ab2a134c3f84b97e67667490a84bf504814abc57b917af5a209342409",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
