@@ -196,6 +196,18 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
+    "url": "https://www.santepubliquefrance.fr/presse/mois-sans-tabac-2026-le-defi-est-lance",
+    "date": "2026-10-30T08:52:27+00:00",
+    "topic": "addictions",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "4fe0da1fcdfb591c830c95ca5bbbdc84457cfb95fc68949464b19b6047faf97d",
+    "digest": "927f8702363e196502cfe0ad56e70ff9295cb555c04ef4f9c25130f8b39cd37d",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-28-octobre-2026",
     "date": "2026-10-28T15:32:54+00:00",
     "topic": "surveillance de la mortalité",
@@ -208,27 +220,27 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-28-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-28-octobre-2026",
     "date": "2026-10-28T15:23:56+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "20b23c4f91fc83da6ffae71e842dc0f9d0dd46c4963fe2d5294f7ebb33547009",
-    "digest": "39530b78be48c8fb631bb37e03c6f40039e3328d45346e007368e302b41bb9e0",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "digest": "026f6c8ab0898d0334894cdf07914215146655602fcc0217d3a585acacf98325",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-28-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-28-octobre-2026",
     "date": "2026-10-28T13:15:55+00:00",
     "topic": "surveillance respiratoire",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "9ae9083bc17fb17f3ff84fc4eea6751399228df424d9cb134ef21e7f22ba4d73",
-    "digest": "26c50179d64d6d91bcf1a451d3a417d6dcf0459fbee3e1472114f8c211ece669",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "c026ba0ab2a134c3f84b97e67667490a84bf504814abc57b917af5a209342409",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -240,30 +252,18 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "57e45c4d37d5ec62b11d490fe9b8368a708947a6f8bca6b03803fb3ea4a360f9",
     "digest": "8902e10887af14ed6bcca2cdb7548766762a7e0d394c0ee60b91a1103d9f302c",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
     "date": "2026-10-21T17:07:24+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "13deb7b59237b985cf4a1184b6cbb50894ef9aa07b0dd0f13b423c3f8a67bae8",
-    "digest": "d149af7340fcad48e51226d963fe9998555d9eeb6cb8cb21eae3ae8e6f4e7448",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-21-octobre-2026",
-    "date": "2026-10-21T17:05:19+00:00",
-    "topic": "recours aux urgences",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "34e211a11994abeec98a0eec0fcfa3f20c5a76c81cc81a7ea5e62f7564db7b4b",
-    "digest": "2c8274383bcb7e02bc1f3b7aa22a39fdc9da8a87924b4b505e4de5e83f125bba",
+    "digest": "1e17f864e455fee1bc35507418235f5a6854e5bf4bd6420321555a890733e8f6",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
