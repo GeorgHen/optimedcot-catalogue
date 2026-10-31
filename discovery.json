@@ -204,30 +204,30 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "a83cc7892454fe152d34a547b3b09f1e23ada686328ecf046c22b9f55e06c040",
     "digest": "ae35d395b96b2e0f788249c3d5eaaf57c56022e4ce7b18b2165733dc301954a4",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-28-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-28-octobre-2026",
     "date": "2026-10-28T15:32:54+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "a91308c459416e3bae2e09439601f29673bc7c9ae1e9c974d5f2fb4c35b053cf",
-    "digest": "5acc68e3107da6add69a0394d3dec743991eadb4e1c16d3a9bcebddda77ac14d",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "95f3e0677420c534fb4361d2dbe6d9b2c0cc0006e45344a5ef6eeb499cdd8515",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-28-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-28-octobre-2026",
     "date": "2026-10-28T15:23:56+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "20b23c4f91fc83da6ffae71e842dc0f9d0dd46c4963fe2d5294f7ebb33547009",
-    "digest": "026f6c8ab0898d0334894cdf07914215146655602fcc0217d3a585acacf98325",
+    "digest": "39530b78be48c8fb631bb37e03c6f40039e3328d45346e007368e302b41bb9e0",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -244,26 +244,26 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-28",
+    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-28",
     "date": "2026-10-28T08:55:39+00:00",
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "57e45c4d37d5ec62b11d490fe9b8368a708947a6f8bca6b03803fb3ea4a360f9",
-    "digest": "8902e10887af14ed6bcca2cdb7548766762a7e0d394c0ee60b91a1103d9f302c",
+    "digest": "5b3a7f46f2dac82ddcdde381b0aa89fe895099c8971872ac264bcf6f34f067be",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-21-octobre-2026",
     "date": "2026-10-21T17:07:24+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "13deb7b59237b985cf4a1184b6cbb50894ef9aa07b0dd0f13b423c3f8a67bae8",
-    "digest": "1e17f864e455fee1bc35507418235f5a6854e5bf4bd6420321555a890733e8f6",
+    "digest": "d149af7340fcad48e51226d963fe9998555d9eeb6cb8cb21eae3ae8e6f4e7448",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
