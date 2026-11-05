@@ -204,7 +204,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "433b5ed4c6adcfda03874c84b2a97eb581e60ec235f5a9f07436458eacd2cd2a",
     "digest": "f1af8f99646ac2b258fa36e94f90cf98cbe9f3cb1d4c77352d5c6995131d0b51",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -216,7 +216,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "40f9c954d1346bce3418541b6b0f0df0b9fcc3253d0ed4e1bafb1185eb05ba6f",
     "digest": "ed4ed2dc795c6b2d2e186583a08f40c912ce259ee5a9acdf607c5e5beef555d1",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -228,19 +228,19 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "6cadd42386bc1d02e30a60dfba268ce44c6eba43c8b7a7625ad4ca42a1f4148b",
     "digest": "7ab09d30255da562c66547ecc1f8f79b4ffd3d1a112857dee1602efc1c72d488",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-west-nile-en-france-hexagonale-bulletin-de-la-surveillance-renforcee-du-4",
+    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-west-nile-en-france-hexagonale-bulletin-de-la-surveillance-renforcee-du-4",
     "date": "2026-11-04T08:40:02+00:00",
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "ce4a0319b65a29d5578548fc141623c5fb5db3cad7d9ec32de8ffc3e0b7ad563",
-    "digest": "a19cecf709003f5e13d9708b983cf775badd61bea994601a012546037262de73",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "e6c16324a0dda5fb16485d9446e72d6ab095a57a87caaf1b9d04b03dc0444013",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
