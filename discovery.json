@@ -1,5 +1,19 @@
 [
   {
+    "url": "https://www.has-sante.fr/jcms/p_3603304/fr/parcours-de-soins-palliatifs-pediatriques",
+    "date": "2025-04-28T08:34:15+00:00",
+    "topic": "parcours de soins",
+    "issuer": "has",
+    "type": "OFFICIAL",
+    "profile": "has-rss-metadata-v1",
+    "descriptionDigest": "6caf55ba139d6d8d2a3607d586bac785458b169408fe8ab141216e97ee313e58",
+    "officialTitle": "Parcours de soins palliatifs pédiatriques",
+    "officialAbstract": "Les soins palliatifs pédiatriques (SPP) sont définis par l'OMS comme une prise en charge totale et active de l’enfant, incluant un soutien à sa famille, dès le diagnostic et indépendamment des traitements curatifs. En France, seuls 30 % des enfants nécessitant des SPP en bénéficient, et la prévalence des maladies chroniques complexes chez les enfants augmente. Les défis pour les professionnels incluent l'incertitude pronostique, la personnalisation des soins en fonction du développement de l’enfant, et la facilitation de l’interdisciplinarité. La HAS propose l’élaboration d’un guide parcours de soins palliatifs pédiatriques dont les objectifs incluent l'amélioration des parcours de soins, la définition des ressources nécessaires, et l’adaptation des soins aux besoins singuliers de chaque enfant.",
+    "digest": "f7cb934ea923c1e4b19f43a5f49259ac86e69175feff742709d0d2066327ad0a",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.has-sante.fr/jcms/p_4579272/fr/reponse-a-la-saisine-de-l-assurance-maladie-guide-d-accompagnement-pharmaceutique-des-patients-diabetiques-de-type-2-et-fiches-de-suivi-patient",
     "date": "2026-10-12T13:09:53+00:00",
     "topic": "diabète",
@@ -196,6 +210,18 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
+    "url": "https://www.santepubliquefrance.fr/presse/une-dynamique-encourageante-du-depistage-du-vih-en-france-en-2025",
+    "date": "2026-11-05T13:08:27+00:00",
+    "topic": "dépistage",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "7db57e2fb142c89e993f9540413e7d2a136b6d4dea85a906fbe2297660cd91b7",
+    "digest": "5395ee835c1c60aee1d59f3fb9d7b94dd96f24d4e21eda3703854a77640c4c92",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-3-novembre-2026",
     "date": "2026-11-04T17:19:48+00:00",
     "topic": "surveillance de la mortalité",
@@ -240,7 +266,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "ce4a0319b65a29d5578548fc141623c5fb5db3cad7d9ec32de8ffc3e0b7ad563",
     "digest": "e6c16324a0dda5fb16485d9446e72d6ab095a57a87caaf1b9d04b03dc0444013",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -252,18 +278,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "a83cc7892454fe152d34a547b3b09f1e23ada686328ecf046c22b9f55e06c040",
     "digest": "ae35d395b96b2e0f788249c3d5eaaf57c56022e4ce7b18b2165733dc301954a4",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-28-octobre-2026",
-    "date": "2026-10-28T15:32:54+00:00",
-    "topic": "surveillance de la mortalité",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "a91308c459416e3bae2e09439601f29673bc7c9ae1e9c974d5f2fb4c35b053cf",
-    "digest": "5acc68e3107da6add69a0394d3dec743991eadb4e1c16d3a9bcebddda77ac14d",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
