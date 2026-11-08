@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-07T20:59:20.003614+00:00",
+  "checkedAt": "2026-11-08T12:00:34.334347+00:00",
   "newOrModifiedReferences": 0,
   "generation": 26,
   "sources": [
@@ -34,7 +34,7 @@
       "source": "ministere",
       "kind": "OFFICIAL",
       "state": "UNAVAILABLE_OR_QUARANTINED",
-      "reason": "Accès impossible curl: (56) Recv failure: Connection was reset\r\n"
+      "reason": "HTML non qualifié pour publication automatique ; source enregistrée, aucune synthèse générée"
     },
     {
       "source": "omniprat",
@@ -46,7 +46,7 @@
       "source": "splf",
       "kind": "COMPLEMENTARY",
       "state": "UNAVAILABLE_OR_QUARANTINED",
-      "reason": "Accès impossible curl: (22) The requested URL returned error: 503\r\n"
+      "reason": "Accès impossible curl: (22) The requested URL returned error: 403\r\n"
     }
   ],
   "notice": "Only original publication-reference notices are eligible; no clinical/billing rule automatically qualified."
