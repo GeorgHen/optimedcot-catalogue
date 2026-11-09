@@ -210,26 +210,26 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/presse/une-dynamique-encourageante-du-depistage-du-vih-en-france-en-2025",
+    "url": "https://www.santepubliquefrance.fr/presse/une-dynamique-encourageante-du-depistage-du-vih-en-france-en-2025",
     "date": "2026-11-05T13:08:27+00:00",
     "topic": "dépistage",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
-    "descriptionDigest": "d08f4d7320a6e04242dccc352bb8626f64c8fe6a7aabe7173f3c93b497f8f42d",
-    "digest": "87ab2737fb4789f7526b07d7e5d158a8c0b4a631a2104b6fc39d52ea4f5a8036",
+    "descriptionDigest": "7db57e2fb142c89e993f9540413e7d2a136b6d4dea85a906fbe2297660cd91b7",
+    "digest": "5395ee835c1c60aee1d59f3fb9d7b94dd96f24d4e21eda3703854a77640c4c92",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-3-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-3-novembre-2026",
     "date": "2026-11-04T17:19:48+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "433b5ed4c6adcfda03874c84b2a97eb581e60ec235f5a9f07436458eacd2cd2a",
-    "digest": "f1af8f99646ac2b258fa36e94f90cf98cbe9f3cb1d4c77352d5c6995131d0b51",
+    "digest": "bf11765fd9bdf7e8fe5da7b1327462bd63113a6d6355d29849460f4b739bc73d",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -246,14 +246,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-3-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-3-novembre-2026",
     "date": "2026-11-04T17:58:41+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "6cadd42386bc1d02e30a60dfba268ce44c6eba43c8b7a7625ad4ca42a1f4148b",
-    "digest": "7ab09d30255da562c66547ecc1f8f79b4ffd3d1a112857dee1602efc1c72d488",
+    "digest": "11734e3caf6927757c16f21dc3905f37c2180969c1afacbc687b2df17bc6690b",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -270,15 +270,15 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/presse/mois-sans-tabac-2026-le-defi-est-lance",
+    "url": "https://www.santepubliquefrance.fr/index.php/presse/mois-sans-tabac-2026-le-defi-est-lance",
     "date": "2026-10-30T08:52:27+00:00",
     "topic": "addictions",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "a83cc7892454fe152d34a547b3b09f1e23ada686328ecf046c22b9f55e06c040",
-    "digest": "ae35d395b96b2e0f788249c3d5eaaf57c56022e4ce7b18b2165733dc301954a4",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "ec4c6367ab135fd372375e045ef4af44caa3850f5332630b9601e0efcf946298",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   }
 ]
