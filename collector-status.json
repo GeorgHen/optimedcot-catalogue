@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-09T14:04:22.219674+00:00",
-  "newOrModifiedReferences": 1,
+  "checkedAt": "2026-11-10T00:45:09.091473+00:00",
+  "newOrModifiedReferences": 0,
   "generation": 27,
   "sources": [
     {
@@ -15,7 +15,7 @@
       "kind": "OFFICIAL",
       "state": "COLLECTED",
       "references": 6,
-      "published": 1
+      "published": 0
     },
     {
       "source": "ameli",
@@ -34,7 +34,7 @@
       "source": "ministere",
       "kind": "OFFICIAL",
       "state": "UNAVAILABLE_OR_QUARANTINED",
-      "reason": "HTML non qualifié pour publication automatique ; source enregistrée, aucune synthèse générée"
+      "reason": "Accès impossible curl: (56) Recv failure: Connection was reset\r\n"
     },
     {
       "source": "omniprat",
