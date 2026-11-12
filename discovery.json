@@ -210,6 +210,42 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-12-novembre-2026",
+    "date": "2026-11-12T17:39:16+00:00",
+    "topic": "recours aux urgences",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "cced06b0c040e26bae3d40203f8aa9495c3804ea5483ad22740a59711c1eaedf",
+    "digest": "64e7991efecfaccbe7a628c279d9a1130de30751116ac7ba333bc6c50cdc687f",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-12-novembre-2026",
+    "date": "2026-11-12T16:29:45+00:00",
+    "topic": "surveillance de la mortalité",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "a63bd81c8e906d9afa08ba24bc17bd0436f6af87f30cb28651404c088aef3cbc",
+    "digest": "141e49ab1e4c067cc7b0fee1149e17dfb0a8d9269ecf554ffa15e92ddccfa14a",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-12-novembre-2026",
+    "date": "2026-11-12T13:51:27+00:00",
+    "topic": "surveillance respiratoire",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "2dcb24138f4e5515338061694e18bba574f792f6d75ab93f8cff71ca482d20e2",
+    "digest": "1fa456e3aed9bb20838ba60e87fd390f97a09ffd56cbe772e34cd06b231de879",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-29",
     "date": "2026-11-12T09:32:10+00:00",
     "topic": "surveillance des arboviroses",
@@ -218,7 +254,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "0571803ebe3e7be955827af275cf238baae314ff3a51fc20fbdf5fe9d1a989de",
     "digest": "cfadf66425bc400aaf461716b153c90d0faf9940a2c37165ec414187b008e75b",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -230,7 +266,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "c40c2c71aeab5f45921e60a4fbcb039f341fa2c6f83a3b7264e0933b727fd682",
     "digest": "5bc21eff73b6e9fcdc93bdca96baa78917f1594aabea1bb173ab6abe13c5072b",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -242,42 +278,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "7db57e2fb142c89e993f9540413e7d2a136b6d4dea85a906fbe2297660cd91b7",
     "digest": "5395ee835c1c60aee1d59f3fb9d7b94dd96f24d4e21eda3703854a77640c4c92",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-3-novembre-2026",
-    "date": "2026-11-04T17:19:48+00:00",
-    "topic": "surveillance de la mortalité",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "433b5ed4c6adcfda03874c84b2a97eb581e60ec235f5a9f07436458eacd2cd2a",
-    "digest": "f1af8f99646ac2b258fa36e94f90cf98cbe9f3cb1d4c77352d5c6995131d0b51",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-4-novembre-2026",
-    "date": "2026-11-04T13:53:17+00:00",
-    "topic": "surveillance respiratoire",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "40f9c954d1346bce3418541b6b0f0df0b9fcc3253d0ed4e1bafb1185eb05ba6f",
-    "digest": "ed4ed2dc795c6b2d2e186583a08f40c912ce259ee5a9acdf607c5e5beef555d1",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-3-novembre-2026",
-    "date": "2026-11-04T17:58:41+00:00",
-    "topic": "recours aux urgences",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "6cadd42386bc1d02e30a60dfba268ce44c6eba43c8b7a7625ad4ca42a1f4148b",
-    "digest": "7ab09d30255da562c66547ecc1f8f79b4ffd3d1a112857dee1602efc1c72d488",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
