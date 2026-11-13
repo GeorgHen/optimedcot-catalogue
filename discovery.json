@@ -218,7 +218,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "cced06b0c040e26bae3d40203f8aa9495c3804ea5483ad22740a59711c1eaedf",
     "digest": "64e7991efecfaccbe7a628c279d9a1130de30751116ac7ba333bc6c50cdc687f",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -230,7 +230,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "a63bd81c8e906d9afa08ba24bc17bd0436f6af87f30cb28651404c088aef3cbc",
     "digest": "141e49ab1e4c067cc7b0fee1149e17dfb0a8d9269ecf554ffa15e92ddccfa14a",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -242,19 +242,19 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "2dcb24138f4e5515338061694e18bba574f792f6d75ab93f8cff71ca482d20e2",
     "digest": "1fa456e3aed9bb20838ba60e87fd390f97a09ffd56cbe772e34cd06b231de879",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-29",
+    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-29",
     "date": "2026-11-12T09:32:10+00:00",
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "0571803ebe3e7be955827af275cf238baae314ff3a51fc20fbdf5fe9d1a989de",
-    "digest": "cfadf66425bc400aaf461716b153c90d0faf9940a2c37165ec414187b008e75b",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "a2f396c1f2aacb016c08831bd8c7e67d51fe26fe3e5fda4c2f7fb2c3b7eba5ac",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -270,14 +270,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/presse/une-dynamique-encourageante-du-depistage-du-vih-en-france-en-2025",
+    "url": "https://www.santepubliquefrance.fr/index.php/presse/une-dynamique-encourageante-du-depistage-du-vih-en-france-en-2025",
     "date": "2026-11-05T13:08:27+00:00",
     "topic": "dépistage",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
-    "descriptionDigest": "7db57e2fb142c89e993f9540413e7d2a136b6d4dea85a906fbe2297660cd91b7",
-    "digest": "5395ee835c1c60aee1d59f3fb9d7b94dd96f24d4e21eda3703854a77640c4c92",
+    "descriptionDigest": "d08f4d7320a6e04242dccc352bb8626f64c8fe6a7aabe7173f3c93b497f8f42d",
+    "digest": "87ab2737fb4789f7526b07d7e5d158a8c0b4a631a2104b6fc39d52ea4f5a8036",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
