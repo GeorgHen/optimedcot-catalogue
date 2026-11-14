@@ -266,7 +266,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "c40c2c71aeab5f45921e60a4fbcb039f341fa2c6f83a3b7264e0933b727fd682",
     "digest": "fec5cd2e8433d206ddf86679b983c8cef857a51a35fc85be2e5c8ff010a04e4b",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
