@@ -218,7 +218,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "cced06b0c040e26bae3d40203f8aa9495c3804ea5483ad22740a59711c1eaedf",
     "digest": "8f626ca884a314f6c25e8516720ea21bd10cbedb40ab229c48f2529cce0fb466",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -230,7 +230,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "a63bd81c8e906d9afa08ba24bc17bd0436f6af87f30cb28651404c088aef3cbc",
     "digest": "83173582e346d3dfe7395935c8435dc9444fa882d3dc19c94eba170b761a6d57",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -246,27 +246,27 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-29",
+    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-29",
     "date": "2026-11-12T09:32:10+00:00",
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "0571803ebe3e7be955827af275cf238baae314ff3a51fc20fbdf5fe9d1a989de",
-    "digest": "cfadf66425bc400aaf461716b153c90d0faf9940a2c37165ec414187b008e75b",
+    "digest": "a2f396c1f2aacb016c08831bd8c7e67d51fe26fe3e5fda4c2f7fb2c3b7eba5ac",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/rougeole/bulletin-national/rougeole-en-france-du-1er-janvier-au-31-octobre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/rougeole/bulletin-national/rougeole-en-france-du-1er-janvier-au-31-octobre-2026",
     "date": "2026-11-12T09:12:47+00:00",
     "topic": "prévention des infections",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "c40c2c71aeab5f45921e60a4fbcb039f341fa2c6f83a3b7264e0933b727fd682",
-    "digest": "5bc21eff73b6e9fcdc93bdca96baa78917f1594aabea1bb173ab6abe13c5072b",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "fec5cd2e8433d206ddf86679b983c8cef857a51a35fc85be2e5c8ff010a04e4b",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
