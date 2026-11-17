@@ -1,5 +1,19 @@
 [
   {
+    "url": "https://www.has-sante.fr/jcms/p_4606429/fr/vaccination-contre-les-infections-invasives-a-pneumocoques-place-du-vaccin-capvaxive-recommandation",
+    "date": "2026-11-12T14:12:25+00:00",
+    "topic": "surveillance respiratoire",
+    "issuer": "has",
+    "type": "OFFICIAL",
+    "profile": "has-rss-metadata-v1",
+    "descriptionDigest": "536210103830e35d126adce9f8881da6e0aa4ab15588e3d0187b1c39c655940e",
+    "officialTitle": "Vaccination contre les infections invasives à pneumocoques : place du vaccin CAPVAXIVE - Recommandation",
+    "officialAbstract": "La HAS a évalué la place du vaccin CAPVAXIVE (VPC21) dans la stratégie de vaccination contre les infections invasives à pneumocoques chez les enfants et adolescents à risque âgés de 2 à moins de 18 ans. Elle définit les populations susceptibles d’en bénéficier ainsi que ses modalités d’utilisation après la réalisation d’un schéma vaccinal pneumococcique complet.",
+    "digest": "5e4d81ced70ba90acb81ff9c812d99e24bb9bbf58d0c38e4db7d4b7648c166a4",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.has-sante.fr/jcms/p_3603304/fr/parcours-de-soins-palliatifs-pediatriques",
     "date": "2025-04-28T08:34:15+00:00",
     "topic": "parcours de soins",
@@ -210,14 +224,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/resistance-aux-antibiotiques/infographie/que-faire-pour-prevenir-la-propagation-de-la-resistance-aux-antibiotiques",
+    "url": "https://www.santepubliquefrance.fr/resistance-aux-antibiotiques/infographie/que-faire-pour-prevenir-la-propagation-de-la-resistance-aux-antibiotiques",
     "date": "2019-11-16T09:52:14+00:00",
     "topic": "prévention des infections",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "d0fafc9be416c90f2419bd964e2910560adac90574304aa262cb17425b4f8f67",
-    "digest": "e48c1fc6ae997d26126c49e52b96c0b828f2e842972f661daad33f74ae416270",
+    "digest": "23ce9c4ab0618110021d1c889a88ebd292502eb54aa5d296698a0e3473c3a00a",
     "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -254,7 +268,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "2dcb24138f4e5515338061694e18bba574f792f6d75ab93f8cff71ca482d20e2",
     "digest": "607c2ffb0d644cb6befa017e753c4e567c35b079b948dde44fbf5754d84961a3",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
