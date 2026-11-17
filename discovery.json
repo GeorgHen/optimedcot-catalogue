@@ -10,7 +10,7 @@
     "officialTitle": "Vaccination contre les infections invasives à pneumocoques : place du vaccin CAPVAXIVE - Recommandation",
     "officialAbstract": "La HAS a évalué la place du vaccin CAPVAXIVE (VPC21) dans la stratégie de vaccination contre les infections invasives à pneumocoques chez les enfants et adolescents à risque âgés de 2 à moins de 18 ans. Elle définit les populations susceptibles d’en bénéficier ainsi que ses modalités d’utilisation après la réalisation d’un schéma vaccinal pneumococcique complet.",
     "digest": "5e4d81ced70ba90acb81ff9c812d99e24bb9bbf58d0c38e4db7d4b7648c166a4",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -224,15 +224,39 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/resistance-aux-antibiotiques/infographie/que-faire-pour-prevenir-la-propagation-de-la-resistance-aux-antibiotiques",
+    "url": "https://www.santepubliquefrance.fr/index.php/presse/antibiotiques-baisse-des-prescriptions-et-de-la-consommation-en-2025",
+    "date": "2026-11-17T10:03:17+00:00",
+    "topic": "prévention des infections",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "9acc92ae8d123c3cc0cbdad5481af70826b2d35389cc7dc73b6eb214178a5df5",
+    "digest": "d8553ad83b905bc9bcae2bab6812f6bb50c13e969392af9eab20679a9ec38313",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/resistance-aux-antibiotiques/bulletin-national/antibioresistance-et-consommation-dantibiotiques-en-2025",
+    "date": "2026-11-17T08:58:05+00:00",
+    "topic": "prévention des infections",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "253c00c04b215444f4cb7725e6df88fdf7ff82eac90dc6e3f13ed85ac4ef0d07",
+    "digest": "1e347412522511914febdcb3898d9fe259fe3b82d656c923079c40686250f213",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/index.php/resistance-aux-antibiotiques/infographie/que-faire-pour-prevenir-la-propagation-de-la-resistance-aux-antibiotiques",
     "date": "2019-11-16T09:52:14+00:00",
     "topic": "prévention des infections",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "d0fafc9be416c90f2419bd964e2910560adac90574304aa262cb17425b4f8f67",
-    "digest": "23ce9c4ab0618110021d1c889a88ebd292502eb54aa5d296698a0e3473c3a00a",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "digest": "e48c1fc6ae997d26126c49e52b96c0b828f2e842972f661daad33f74ae416270",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -248,14 +272,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-12-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-12-novembre-2026",
     "date": "2026-11-12T16:29:45+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "a63bd81c8e906d9afa08ba24bc17bd0436f6af87f30cb28651404c088aef3cbc",
-    "digest": "141e49ab1e4c067cc7b0fee1149e17dfb0a8d9269ecf554ffa15e92ddccfa14a",
+    "digest": "83173582e346d3dfe7395935c8435dc9444fa882d3dc19c94eba170b761a6d57",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -268,30 +292,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "2dcb24138f4e5515338061694e18bba574f792f6d75ab93f8cff71ca482d20e2",
     "digest": "607c2ffb0d644cb6befa017e753c4e567c35b079b948dde44fbf5754d84961a3",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-29",
-    "date": "2026-11-12T09:32:10+00:00",
-    "topic": "surveillance des arboviroses",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "0571803ebe3e7be955827af275cf238baae314ff3a51fc20fbdf5fe9d1a989de",
-    "digest": "cfadf66425bc400aaf461716b153c90d0faf9940a2c37165ec414187b008e75b",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/index.php/rougeole/bulletin-national/rougeole-en-france-du-1er-janvier-au-31-octobre-2026",
-    "date": "2026-11-12T09:12:47+00:00",
-    "topic": "prévention des infections",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "c40c2c71aeab5f45921e60a4fbcb039f341fa2c6f83a3b7264e0933b727fd682",
-    "digest": "fec5cd2e8433d206ddf86679b983c8cef857a51a35fc85be2e5c8ff010a04e4b",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
