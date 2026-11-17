@@ -232,7 +232,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "9acc92ae8d123c3cc0cbdad5481af70826b2d35389cc7dc73b6eb214178a5df5",
     "digest": "d8553ad83b905bc9bcae2bab6812f6bb50c13e969392af9eab20679a9ec38313",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -244,7 +244,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "253c00c04b215444f4cb7725e6df88fdf7ff82eac90dc6e3f13ed85ac4ef0d07",
     "digest": "1e347412522511914febdcb3898d9fe259fe3b82d656c923079c40686250f213",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
