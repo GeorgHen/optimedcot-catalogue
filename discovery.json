@@ -224,6 +224,30 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
+    "url": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-18-novembre-2026",
+    "date": "2026-11-18T14:10:00+00:00",
+    "topic": "surveillance respiratoire",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "2d3756759aeccf927348d980989e2ca9df5c729be1d5e53942c3f67d694fc4c1",
+    "digest": "27697c275a66205f81ad86acbe9f35287e021617f4eb8712e7842aef3887a99b",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-30",
+    "date": "2026-11-18T08:54:15+00:00",
+    "topic": "surveillance des arboviroses",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "e4b50d32d1584de3888b0ce52786ad8956e234c12f7cae66a79dba670f75a955",
+    "digest": "96dc5a46d77dc8f2d4d0aa8afe2aaf451b5642aadf1a60295cc5407d7f86884d",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.santepubliquefrance.fr/index.php/presse/antibiotiques-baisse-des-prescriptions-et-de-la-consommation-en-2025",
     "date": "2026-11-17T10:03:17+00:00",
     "topic": "prévention des infections",
@@ -248,14 +272,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/resistance-aux-antibiotiques/infographie/que-faire-pour-prevenir-la-propagation-de-la-resistance-aux-antibiotiques",
+    "url": "https://www.santepubliquefrance.fr/resistance-aux-antibiotiques/infographie/que-faire-pour-prevenir-la-propagation-de-la-resistance-aux-antibiotiques",
     "date": "2019-11-16T09:52:14+00:00",
     "topic": "prévention des infections",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "d0fafc9be416c90f2419bd964e2910560adac90574304aa262cb17425b4f8f67",
-    "digest": "e48c1fc6ae997d26126c49e52b96c0b828f2e842972f661daad33f74ae416270",
+    "digest": "23ce9c4ab0618110021d1c889a88ebd292502eb54aa5d296698a0e3473c3a00a",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -268,30 +292,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "cced06b0c040e26bae3d40203f8aa9495c3804ea5483ad22740a59711c1eaedf",
     "digest": "8f626ca884a314f6c25e8516720ea21bd10cbedb40ab229c48f2529cce0fb466",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-12-novembre-2026",
-    "date": "2026-11-12T16:29:45+00:00",
-    "topic": "surveillance de la mortalité",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "a63bd81c8e906d9afa08ba24bc17bd0436f6af87f30cb28651404c088aef3cbc",
-    "digest": "83173582e346d3dfe7395935c8435dc9444fa882d3dc19c94eba170b761a6d57",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/index.php/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-12-novembre-2026",
-    "date": "2026-11-12T13:51:27+00:00",
-    "topic": "surveillance respiratoire",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "2dcb24138f4e5515338061694e18bba574f792f6d75ab93f8cff71ca482d20e2",
-    "digest": "607c2ffb0d644cb6befa017e753c4e567c35b079b948dde44fbf5754d84961a3",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
