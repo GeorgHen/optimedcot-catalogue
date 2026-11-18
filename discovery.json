@@ -224,6 +224,30 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-18-novembre-2026",
+    "date": "2026-11-18T17:04:48+00:00",
+    "topic": "surveillance de la mortalité",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "409dda458937f417bad5a25adb8eb5717f320c5d1722348007f6ad2eb4014ef8",
+    "digest": "0840d72fd879684d386cb162b900b1f50df5bf75e822b9f5de59bbcf1bed1826",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-18-novembre-2026",
+    "date": "2026-11-18T16:55:41+00:00",
+    "topic": "recours aux urgences",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "ca4d747b5fae1a7853ecdaf4c48f6614ef28c52448c492b64868ebc11262080e",
+    "digest": "98fcc05d2460713c824cbf8c5938128d2adee9e66217ff9b4bdd79148f9d40ad",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-18-novembre-2026",
     "date": "2026-11-18T14:10:00+00:00",
     "topic": "surveillance respiratoire",
@@ -232,7 +256,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "2d3756759aeccf927348d980989e2ca9df5c729be1d5e53942c3f67d694fc4c1",
     "digest": "27697c275a66205f81ad86acbe9f35287e021617f4eb8712e7842aef3887a99b",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -244,19 +268,19 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "e4b50d32d1584de3888b0ce52786ad8956e234c12f7cae66a79dba670f75a955",
     "digest": "96dc5a46d77dc8f2d4d0aa8afe2aaf451b5642aadf1a60295cc5407d7f86884d",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/presse/antibiotiques-baisse-des-prescriptions-et-de-la-consommation-en-2025",
+    "url": "https://www.santepubliquefrance.fr/presse/antibiotiques-baisse-des-prescriptions-et-de-la-consommation-en-2025",
     "date": "2026-11-17T10:03:17+00:00",
     "topic": "prévention des infections",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "9acc92ae8d123c3cc0cbdad5481af70826b2d35389cc7dc73b6eb214178a5df5",
-    "digest": "d8553ad83b905bc9bcae2bab6812f6bb50c13e969392af9eab20679a9ec38313",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "0a685399cee8f613df14ad25b2771cd4e8e2535eeab67a062c37a6daad08d9c3",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -268,30 +292,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "253c00c04b215444f4cb7725e6df88fdf7ff82eac90dc6e3f13ed85ac4ef0d07",
     "digest": "1e347412522511914febdcb3898d9fe259fe3b82d656c923079c40686250f213",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/resistance-aux-antibiotiques/infographie/que-faire-pour-prevenir-la-propagation-de-la-resistance-aux-antibiotiques",
-    "date": "2019-11-16T09:52:14+00:00",
-    "topic": "prévention des infections",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "d0fafc9be416c90f2419bd964e2910560adac90574304aa262cb17425b4f8f67",
-    "digest": "23ce9c4ab0618110021d1c889a88ebd292502eb54aa5d296698a0e3473c3a00a",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-12-novembre-2026",
-    "date": "2026-11-12T17:39:16+00:00",
-    "topic": "recours aux urgences",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "cced06b0c040e26bae3d40203f8aa9495c3804ea5483ad22740a59711c1eaedf",
-    "digest": "8f626ca884a314f6c25e8516720ea21bd10cbedb40ab229c48f2529cce0fb466",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
