@@ -1,5 +1,19 @@
 [
   {
+    "url": "https://www.has-sante.fr/jcms/p_3260825/fr/risque-cardiovasculaire-global-evaluation-et-prise-en-charge-en-medecine-de-premier-recours-prevention-primaire-et-prevention-secondaire",
+    "date": "2021-04-12T13:02:43+00:00",
+    "topic": "prévention cardiovasculaire",
+    "issuer": "has",
+    "type": "OFFICIAL",
+    "profile": "has-rss-metadata-v1",
+    "descriptionDigest": "87a5248dc5685b8670e58d09ab7112643b9cd0391ee61cf84e188486117f7616",
+    "officialTitle": "Risque cardiovasculaire global : évaluation et prise en charge en médecine de premier recours - Prévention primaire et prévention secondaire",
+    "officialAbstract": "Les objectifs de ces recommandations sont, dans le cadre de la médecine de premier recours : d’évaluer la pertinence de l’utilisation d’un outil d’évaluation du risque cardiovasculaire en prévention primaire et, le cas échéant, adopter un outil suffisamment compatible avec la population française pour détecter le risque cardiovasculaire ; de définir une stratégie de prise en soins non médicamenteuse associée ou non à un traitement médicamenteux, en prévention primaire et secondaire d’un patient à risque cardiovasculaire ; de proposer une stratégie de prévention basée sur une approche centrée patient et une démarche EBM (Evidence-Based Medicine) qui intègre la perspective et les préférences du patient dans le cadre d’un processus de prise de décision partagée.",
+    "digest": "ba7cfc7c6eddae0e0640c5bb07161f0a3a217916a3545ebebde9add2190c03af",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.has-sante.fr/jcms/p_4606429/fr/vaccination-contre-les-infections-invasives-a-pneumocoques-place-du-vaccin-capvaxive-recommandation",
     "date": "2026-11-12T14:12:25+00:00",
     "topic": "surveillance respiratoire",
@@ -254,8 +268,8 @@
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
-    "descriptionDigest": "709c9966d2da98fe2b5080addd729f7369f686e3fe9b27fafe877098f7927e93",
-    "digest": "0493510684e42fb86422719aecc86e6d2d7775932e25b5c910926524dd8b88db",
+    "descriptionDigest": "44010d3a4091cbd0f3d8363d19278b0bb55863d29ae84dbb565866bd47c9072a",
+    "digest": "444f12e4ba290318f9377964d73256c49c778603e03f409fb4271eab0a061ed7",
     "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -268,7 +282,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "2d3756759aeccf927348d980989e2ca9df5c729be1d5e53942c3f67d694fc4c1",
     "digest": "2e7f843735cca793ffbcbda9e18843b2c48a4b91ed4e209cbcdc1a2c58efb652",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -280,7 +294,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "e4b50d32d1584de3888b0ce52786ad8956e234c12f7cae66a79dba670f75a955",
     "digest": "4efa882177de6790066a5f6a150ac3bb0ab7e8154f5c488d308b388d86206613",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
