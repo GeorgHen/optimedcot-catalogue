@@ -10,7 +10,7 @@
     "officialTitle": "Risque cardiovasculaire global : évaluation et prise en charge en médecine de premier recours - Prévention primaire et prévention secondaire",
     "officialAbstract": "Les objectifs de ces recommandations sont, dans le cadre de la médecine de premier recours : d’évaluer la pertinence de l’utilisation d’un outil d’évaluation du risque cardiovasculaire en prévention primaire et, le cas échéant, adopter un outil suffisamment compatible avec la population française pour détecter le risque cardiovasculaire ; de définir une stratégie de prise en soins non médicamenteuse associée ou non à un traitement médicamenteux, en prévention primaire et secondaire d’un patient à risque cardiovasculaire ; de proposer une stratégie de prévention basée sur une approche centrée patient et une démarche EBM (Evidence-Based Medicine) qui intègre la perspective et les préférences du patient dans le cadre d’un processus de prise de décision partagée.",
     "digest": "ba7cfc7c6eddae0e0640c5bb07161f0a3a217916a3545ebebde9add2190c03af",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -238,27 +238,39 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-18-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/infections-a-pneumocoque/bulletin-national/infections-invasives-a-pneumocoques-en-france-bilan-2024",
+    "date": "2026-11-20T08:54:06+00:00",
+    "topic": "surveillance respiratoire",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "a58af5d762f84948f70dacf74509bfe125a72f78fa5b5f3b34a3aba25dd3cf59",
+    "digest": "bad6c11d962d9c1065656299d0039e43f4d18a251c8e636d8d979dd99c1f0b88",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-18-novembre-2026",
     "date": "2026-11-18T17:04:48+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "409dda458937f417bad5a25adb8eb5717f320c5d1722348007f6ad2eb4014ef8",
-    "digest": "0840d72fd879684d386cb162b900b1f50df5bf75e822b9f5de59bbcf1bed1826",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "5f5894377eac36ce58d44e85cac2f23c77e7985392674fd791ddf669b99c7f5a",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-18-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-18-novembre-2026",
     "date": "2026-11-18T16:55:41+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "ca4d747b5fae1a7853ecdaf4c48f6614ef28c52448c492b64868ebc11262080e",
-    "digest": "98fcc05d2460713c824cbf8c5938128d2adee9e66217ff9b4bdd79148f9d40ad",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "c2c993b9087e59dccef75b6e23d061819a89622530633dd6b0526fe78dff513e",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -270,7 +282,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "44010d3a4091cbd0f3d8363d19278b0bb55863d29ae84dbb565866bd47c9072a",
     "digest": "444f12e4ba290318f9377964d73256c49c778603e03f409fb4271eab0a061ed7",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -294,18 +306,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "e4b50d32d1584de3888b0ce52786ad8956e234c12f7cae66a79dba670f75a955",
     "digest": "4efa882177de6790066a5f6a150ac3bb0ab7e8154f5c488d308b388d86206613",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/presse/antibiotiques-baisse-des-prescriptions-et-de-la-consommation-en-2025",
-    "date": "2026-11-17T10:03:17+00:00",
-    "topic": "prévention des infections",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "9acc92ae8d123c3cc0cbdad5481af70826b2d35389cc7dc73b6eb214178a5df5",
-    "digest": "0a685399cee8f613df14ad25b2771cd4e8e2535eeab67a062c37a6daad08d9c3",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
