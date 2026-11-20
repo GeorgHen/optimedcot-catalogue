@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-20T14:10:17.758251+00:00",
-  "newOrModifiedReferences": 3,
+  "checkedAt": "2026-11-20T23:12:22.935929+00:00",
+  "newOrModifiedReferences": 0,
   "generation": 40,
   "sources": [
     {
@@ -15,7 +15,7 @@
       "kind": "OFFICIAL",
       "state": "COLLECTED",
       "references": 6,
-      "published": 3
+      "published": 0
     },
     {
       "source": "ameli",

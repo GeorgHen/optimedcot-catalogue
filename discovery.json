@@ -246,7 +246,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "a58af5d762f84948f70dacf74509bfe125a72f78fa5b5f3b34a3aba25dd3cf59",
     "digest": "bad6c11d962d9c1065656299d0039e43f4d18a251c8e636d8d979dd99c1f0b88",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -258,7 +258,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "409dda458937f417bad5a25adb8eb5717f320c5d1722348007f6ad2eb4014ef8",
     "digest": "5f5894377eac36ce58d44e85cac2f23c77e7985392674fd791ddf669b99c7f5a",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -270,7 +270,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "ca4d747b5fae1a7853ecdaf4c48f6614ef28c52448c492b64868ebc11262080e",
     "digest": "c2c993b9087e59dccef75b6e23d061819a89622530633dd6b0526fe78dff513e",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
