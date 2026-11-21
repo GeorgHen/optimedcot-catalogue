@@ -246,7 +246,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "a58af5d762f84948f70dacf74509bfe125a72f78fa5b5f3b34a3aba25dd3cf59",
     "digest": "002aad31b3b04e4485f5dd0352df941cff76cdd57a3256e2e412ee3385d5cced",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -274,15 +274,15 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/presse/vaccination-contre-la-grippe-chez-les-seniors-9-000-hospitalisations-evitees-par",
+    "url": "https://www.santepubliquefrance.fr/index.php/presse/vaccination-contre-la-grippe-chez-les-seniors-9-000-hospitalisations-evitees-par",
     "date": "2026-11-19T15:16:31+00:00",
     "topic": "surveillance respiratoire",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "44010d3a4091cbd0f3d8363d19278b0bb55863d29ae84dbb565866bd47c9072a",
-    "digest": "444f12e4ba290318f9377964d73256c49c778603e03f409fb4271eab0a061ed7",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "3ba425474dd8448b3adb8e7b034a35ca78b42cdc082510d5c9461d92614dfd5d",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
