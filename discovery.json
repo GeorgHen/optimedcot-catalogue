@@ -238,15 +238,15 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/infections-a-pneumocoque/bulletin-national/infections-invasives-a-pneumocoques-en-france-bilan-2024",
+    "url": "https://www.santepubliquefrance.fr/index.php/infections-a-pneumocoque/bulletin-national/infections-invasives-a-pneumocoques-en-france-bilan-2024",
     "date": "2026-11-20T08:54:06+00:00",
     "topic": "surveillance respiratoire",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "a58af5d762f84948f70dacf74509bfe125a72f78fa5b5f3b34a3aba25dd3cf59",
-    "digest": "bad6c11d962d9c1065656299d0039e43f4d18a251c8e636d8d979dd99c1f0b88",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "002aad31b3b04e4485f5dd0352df941cff76cdd57a3256e2e412ee3385d5cced",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
