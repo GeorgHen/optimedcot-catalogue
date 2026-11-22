@@ -238,14 +238,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/infections-a-pneumocoque/bulletin-national/infections-invasives-a-pneumocoques-en-france-bilan-2024",
+    "url": "https://www.santepubliquefrance.fr/infections-a-pneumocoque/bulletin-national/infections-invasives-a-pneumocoques-en-france-bilan-2024",
     "date": "2026-11-20T08:54:06+00:00",
     "topic": "surveillance respiratoire",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "a58af5d762f84948f70dacf74509bfe125a72f78fa5b5f3b34a3aba25dd3cf59",
-    "digest": "002aad31b3b04e4485f5dd0352df941cff76cdd57a3256e2e412ee3385d5cced",
+    "digest": "bad6c11d962d9c1065656299d0039e43f4d18a251c8e636d8d979dd99c1f0b88",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -262,14 +262,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-18-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-18-novembre-2026",
     "date": "2026-11-18T16:55:41+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "ca4d747b5fae1a7853ecdaf4c48f6614ef28c52448c492b64868ebc11262080e",
-    "digest": "c2c993b9087e59dccef75b6e23d061819a89622530633dd6b0526fe78dff513e",
+    "digest": "98fcc05d2460713c824cbf8c5938128d2adee9e66217ff9b4bdd79148f9d40ad",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -298,14 +298,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-30",
+    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-30",
     "date": "2026-11-18T08:54:15+00:00",
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "e4b50d32d1584de3888b0ce52786ad8956e234c12f7cae66a79dba670f75a955",
-    "digest": "4efa882177de6790066a5f6a150ac3bb0ab7e8154f5c488d308b388d86206613",
+    "digest": "96dc5a46d77dc8f2d4d0aa8afe2aaf451b5642aadf1a60295cc5407d7f86884d",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
