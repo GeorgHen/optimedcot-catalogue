@@ -282,7 +282,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "44010d3a4091cbd0f3d8363d19278b0bb55863d29ae84dbb565866bd47c9072a",
     "digest": "3ba425474dd8448b3adb8e7b034a35ca78b42cdc082510d5c9461d92614dfd5d",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
