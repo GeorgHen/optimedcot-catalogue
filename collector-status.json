@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-22T22:35:35.906724+00:00",
+  "checkedAt": "2026-11-23T16:12:43.532974+00:00",
   "newOrModifiedReferences": 0,
   "generation": 42,
   "sources": [
@@ -34,7 +34,7 @@
       "source": "ministere",
       "kind": "OFFICIAL",
       "state": "UNAVAILABLE_OR_QUARANTINED",
-      "reason": "HTML non qualifié pour publication automatique ; source enregistrée, aucune synthèse générée"
+      "reason": "Accès impossible curl: (56) Recv failure: Connection was reset\r\n"
     },
     {
       "source": "omniprat",
