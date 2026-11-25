@@ -238,6 +238,30 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
+    "url": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-25-novembre-2026",
+    "date": "2026-11-25T14:46:38+00:00",
+    "topic": "surveillance respiratoire",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "57041a1e0adae61d855f44ea06c6dc83d6157265f5d671955d043ba666d3ccb3",
+    "digest": "c116c8f98137fd3660b310ac7e492c61b6112e2352318777eed70c98190781c9",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-31",
+    "date": "2026-11-25T09:33:30+00:00",
+    "topic": "surveillance des arboviroses",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "3f87c6e01ae9572556e0c91ba1e245a3b01213f23833c56d673d09dd662b6c6a",
+    "digest": "2fdfb56bc5322cbb19a7ff93eeb5fd6107508157c588102d1612d2fb28379a24",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.santepubliquefrance.fr/index.php/infections-a-pneumocoque/bulletin-national/infections-invasives-a-pneumocoques-en-france-bilan-2024",
     "date": "2026-11-20T08:54:06+00:00",
     "topic": "surveillance respiratoire",
@@ -282,30 +306,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "44010d3a4091cbd0f3d8363d19278b0bb55863d29ae84dbb565866bd47c9072a",
     "digest": "3ba425474dd8448b3adb8e7b034a35ca78b42cdc082510d5c9461d92614dfd5d",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/index.php/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-18-novembre-2026",
-    "date": "2026-11-18T14:10:00+00:00",
-    "topic": "surveillance respiratoire",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "2d3756759aeccf927348d980989e2ca9df5c729be1d5e53942c3f67d694fc4c1",
-    "digest": "2e7f843735cca793ffbcbda9e18843b2c48a4b91ed4e209cbcdc1a2c58efb652",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-30",
-    "date": "2026-11-18T08:54:15+00:00",
-    "topic": "surveillance des arboviroses",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "e4b50d32d1584de3888b0ce52786ad8956e234c12f7cae66a79dba670f75a955",
-    "digest": "96dc5a46d77dc8f2d4d0aa8afe2aaf451b5642aadf1a60295cc5407d7f86884d",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
