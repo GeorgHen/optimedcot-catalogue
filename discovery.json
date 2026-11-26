@@ -238,6 +238,30 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-25-novembre-2026",
+    "date": "2026-11-25T16:44:52+00:00",
+    "topic": "surveillance de la mortalité",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "d8c31edc0aafa17c96acbb94bed29ebc1d561ed105f219b0b4ef6a6f70d711b3",
+    "digest": "c290a79ea37c72086b9aac6e1efc7fe3663520ce8446fff6cffa30c16ba49f48",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
+    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-25-novembre-2026",
+    "date": "2026-11-25T16:28:07+00:00",
+    "topic": "recours aux urgences",
+    "issuer": "spf",
+    "type": "OFFICIAL",
+    "profile": "reference-only-v2",
+    "descriptionDigest": "c402486c336431489401045156fd4895f38c84b470dd6d694289e35577bb55d3",
+    "digest": "93ab5c727b3a713fe06f213fe01c1f1934977e4b519ef03f211ec0bfba56773f",
+    "verification": "VERIFIED_REFERENCE_ONLY",
+    "clinicalVerification": "NOT_ASSESSED"
+  },
+  {
     "url": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-25-novembre-2026",
     "date": "2026-11-25T14:46:38+00:00",
     "topic": "surveillance respiratoire",
@@ -246,7 +270,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "57041a1e0adae61d855f44ea06c6dc83d6157265f5d671955d043ba666d3ccb3",
     "digest": "c116c8f98137fd3660b310ac7e492c61b6112e2352318777eed70c98190781c9",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -258,7 +282,7 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "3f87c6e01ae9572556e0c91ba1e245a3b01213f23833c56d673d09dd662b6c6a",
     "digest": "2fdfb56bc5322cbb19a7ff93eeb5fd6107508157c588102d1612d2fb28379a24",
-    "verification": "VERIFIED_REFERENCE_ONLY",
+    "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -282,30 +306,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "409dda458937f417bad5a25adb8eb5717f320c5d1722348007f6ad2eb4014ef8",
     "digest": "0840d72fd879684d386cb162b900b1f50df5bf75e822b9f5de59bbcf1bed1826",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-18-novembre-2026",
-    "date": "2026-11-18T16:55:41+00:00",
-    "topic": "recours aux urgences",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "ca4d747b5fae1a7853ecdaf4c48f6614ef28c52448c492b64868ebc11262080e",
-    "digest": "98fcc05d2460713c824cbf8c5938128d2adee9e66217ff9b4bdd79148f9d40ad",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/index.php/presse/vaccination-contre-la-grippe-chez-les-seniors-9-000-hospitalisations-evitees-par",
-    "date": "2026-11-19T15:16:31+00:00",
-    "topic": "surveillance respiratoire",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "44010d3a4091cbd0f3d8363d19278b0bb55863d29ae84dbb565866bd47c9072a",
-    "digest": "3ba425474dd8448b3adb8e7b034a35ca78b42cdc082510d5c9461d92614dfd5d",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
