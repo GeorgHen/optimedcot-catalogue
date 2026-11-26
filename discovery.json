@@ -238,26 +238,26 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-25-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-25-novembre-2026",
     "date": "2026-11-25T16:44:52+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "d8c31edc0aafa17c96acbb94bed29ebc1d561ed105f219b0b4ef6a6f70d711b3",
-    "digest": "c290a79ea37c72086b9aac6e1efc7fe3663520ce8446fff6cffa30c16ba49f48",
+    "digest": "abc81360b00d2baec3992649cd5a4e20bb90a2dc7d9cf178289bdacf50f03ec9",
     "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-25-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-25-novembre-2026",
     "date": "2026-11-25T16:28:07+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "c402486c336431489401045156fd4895f38c84b470dd6d694289e35577bb55d3",
-    "digest": "93ab5c727b3a713fe06f213fe01c1f1934977e4b519ef03f211ec0bfba56773f",
+    "digest": "bf97adedc0ea461ca1cea7104ccab8cb5a65e7b3533a92273e83e479fe60062c",
     "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -274,15 +274,15 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-31",
+    "url": "https://www.santepubliquefrance.fr/index.php/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-31",
     "date": "2026-11-25T09:33:30+00:00",
     "topic": "surveillance des arboviroses",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "3f87c6e01ae9572556e0c91ba1e245a3b01213f23833c56d673d09dd662b6c6a",
-    "digest": "2fdfb56bc5322cbb19a7ff93eeb5fd6107508157c588102d1612d2fb28379a24",
-    "verification": "UNCHANGED_REFERENCE",
+    "digest": "a86e3d57f3fddef3d9aad85e62501acbcc3155be3b9c62a56778a39881edf06d",
+    "verification": "VERIFIED_REFERENCE_ONLY",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
@@ -294,18 +294,6 @@
     "profile": "reference-only-v2",
     "descriptionDigest": "a58af5d762f84948f70dacf74509bfe125a72f78fa5b5f3b34a3aba25dd3cf59",
     "digest": "002aad31b3b04e4485f5dd0352df941cff76cdd57a3256e2e412ee3385d5cced",
-    "verification": "UNCHANGED_REFERENCE",
-    "clinicalVerification": "NOT_ASSESSED"
-  },
-  {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-18-novembre-2026",
-    "date": "2026-11-18T17:04:48+00:00",
-    "topic": "surveillance de la mortalité",
-    "issuer": "spf",
-    "type": "OFFICIAL",
-    "profile": "reference-only-v2",
-    "descriptionDigest": "409dda458937f417bad5a25adb8eb5717f320c5d1722348007f6ad2eb4014ef8",
-    "digest": "0840d72fd879684d386cb162b900b1f50df5bf75e822b9f5de59bbcf1bed1826",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
