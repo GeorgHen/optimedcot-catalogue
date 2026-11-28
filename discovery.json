@@ -238,26 +238,26 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-25-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/surveillance-de-la-mortalite-toutes-causes-bulletin-du-25-novembre-2026",
     "date": "2026-11-25T16:44:52+00:00",
     "topic": "surveillance de la mortalité",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "d8c31edc0aafa17c96acbb94bed29ebc1d561ed105f219b0b4ef6a6f70d711b3",
-    "digest": "c290a79ea37c72086b9aac6e1efc7fe3663520ce8446fff6cffa30c16ba49f48",
+    "digest": "abc81360b00d2baec3992649cd5a4e20bb90a2dc7d9cf178289bdacf50f03ec9",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-25-novembre-2026",
+    "url": "https://www.santepubliquefrance.fr/index.php/surveillance-syndromique-sursaudr/bulletin-du-reseau-oscour-du-25-novembre-2026",
     "date": "2026-11-25T16:28:07+00:00",
     "topic": "recours aux urgences",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "c402486c336431489401045156fd4895f38c84b470dd6d694289e35577bb55d3",
-    "digest": "93ab5c727b3a713fe06f213fe01c1f1934977e4b519ef03f211ec0bfba56773f",
+    "digest": "bf97adedc0ea461ca1cea7104ccab8cb5a65e7b3533a92273e83e479fe60062c",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   },
@@ -286,14 +286,14 @@
     "clinicalVerification": "NOT_ASSESSED"
   },
   {
-    "url": "https://www.santepubliquefrance.fr/index.php/infections-a-pneumocoque/bulletin-national/infections-invasives-a-pneumocoques-en-france-bilan-2024",
+    "url": "https://www.santepubliquefrance.fr/infections-a-pneumocoque/bulletin-national/infections-invasives-a-pneumocoques-en-france-bilan-2024",
     "date": "2026-11-20T08:54:06+00:00",
     "topic": "surveillance respiratoire",
     "issuer": "spf",
     "type": "OFFICIAL",
     "profile": "reference-only-v2",
     "descriptionDigest": "a58af5d762f84948f70dacf74509bfe125a72f78fa5b5f3b34a3aba25dd3cf59",
-    "digest": "002aad31b3b04e4485f5dd0352df941cff76cdd57a3256e2e412ee3385d5cced",
+    "digest": "bad6c11d962d9c1065656299d0039e43f4d18a251c8e636d8d979dd99c1f0b88",
     "verification": "UNCHANGED_REFERENCE",
     "clinicalVerification": "NOT_ASSESSED"
   }
